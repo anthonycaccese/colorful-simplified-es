@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>The Family Computer Disk System, sometimes shortened as the Famicom Disk System or simply the Disk System, and abbreviated as the FDS or FCD, is a peripheral for Nintendo's Family Computer home video game console. It uses proprietary floppy disks called "Disk Cards" for data storage.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>1986</systemReleaseYear>
+      <systemReleaseDate>1986-11</systemReleaseDate>
+      <systemReleaseDateFormated>February 21, 1986</systemReleaseDateFormated>
+      <systemHardwareType>Peripheral</systemHardwareType>
+      <systemColor>B93041</systemColor>
+   </variables>
+</theme>

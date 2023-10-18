@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>The Satellaview is a satellite modem peripheral for Nintendo's Super Famicom system that was released in Japan in 1995. It came bundled with the BS-X Game Pak and an 8M Memory Pak and it was developed to receive satellite signals broadcast from St.GIGA.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>1995</systemReleaseYear>
+      <systemReleaseDate>1995-04-23</systemReleaseDate>
+      <systemReleaseDateFormated>April 23, 1995</systemReleaseDateFormated>
+      <systemHardwareType>Peripheral</systemHardwareType>
+      <systemColor>D3AF41</systemColor>
+   </variables>
+</theme>

@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>Super Nintendo Entertainment System</systemName>
+      <systemDescription>The Super Nintendo Entertainment System (also known as the Super NES, SNES or Super Nintendo) is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>1992</systemReleaseYear>
+      <systemReleaseDate>1992-04-11</systemReleaseDate>
+      <systemReleaseDateFormated>April 11, 1992</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>7365B0</systemColor>
+   </variables>
+</theme>

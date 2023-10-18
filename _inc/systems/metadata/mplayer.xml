@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Media Player</systemName>
+      <systemDescription>Powered by MPV a free, open source, and cross-platform media player.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>System</systemHardwareType>
+      <systemColor>222222</systemColor>
+   </variables>
+   <view name="system,basic,detailed,video">
+      <text name="systemLabel" extra="true">
+         <text>${systemHardwareType}</text>
+      </text>
+   </view>
+</theme>

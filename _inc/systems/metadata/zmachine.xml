@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>Z-machine</systemName>
+      <systemDescription>The Z-machine is a virtual machine that was developed by Joel Berez and Marc Blank in 1979 and used by Infocom for its text adventure games.</systemDescription>
+      <systemManufacturer>Infocom</systemManufacturer>
+      <systemReleaseYear>1979</systemReleaseYear>
+      <systemReleaseDate>1979</systemReleaseDate>
+      <systemReleaseDateFormated>1979</systemReleaseDateFormated>
+      <systemHardwareType>Engine</systemHardwareType>
+      <systemColor>000000</systemColor>
+   </variables>
+</theme>

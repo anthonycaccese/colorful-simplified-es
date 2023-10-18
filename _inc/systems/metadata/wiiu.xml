@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>The Wii U is a home video game console developed by Nintendo as the successor to the Wii. Released in late 2012, it is the first eighth-generation video game console and competed with Microsoft's Xbox One and Sony's PlayStation 4. The Wii U is the first Nintendo console to support HD graphics.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>2012</systemReleaseYear>
+      <systemReleaseDate>2012-11-18</systemReleaseDate>
+      <systemReleaseDateFormated>November 18, 2012</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>5aaed2</systemColor>
+   </variables>
+</theme>

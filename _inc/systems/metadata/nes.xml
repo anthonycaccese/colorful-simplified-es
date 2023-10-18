@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>Nintendo Entertainment System</systemName>
+      <systemDescription>The Nintendo Entertainment System is an 8-bit video game console that was released by Nintendo in North America during 1985, in Europe during 1986 and Australia in 1987.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>1985</systemReleaseYear>
+      <systemReleaseDate>1985-10-18</systemReleaseDate>
+      <systemReleaseDateFormated>October 18, 1985</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>B93041</systemColor>
+   </variables>
+</theme>

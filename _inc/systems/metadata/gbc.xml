@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>The Game Boy Color, (abbreviated as GBC) is a handheld game console manufactured by Nintendo, which was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>1998</systemReleaseYear>
+      <systemReleaseDate>1998-10-21</systemReleaseDate>
+      <systemReleaseDateFormated>October 21, 1998</systemReleaseDateFormated>
+      <systemHardwareType>Portable</systemHardwareType>
+      <systemColor>F3B92A</systemColor>
+   </variables>
+</theme>

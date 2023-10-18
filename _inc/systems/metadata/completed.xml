@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Completed</systemName>
+      <systemDescription>Organize your completed games.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Collection</systemHardwareType>
+      <systemColor>222222</systemColor>
+   </variables>
+   <view name="system,basic,detailed,video">
+      <text name="systemLabel" extra="true">
+         <text>${systemHardwareType}</text>
+      </text>
+   </view>
+</theme>

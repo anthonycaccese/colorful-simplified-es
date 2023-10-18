@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>The Super Famicom is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>1990</systemReleaseYear>
+      <systemReleaseDate>1990-11-21</systemReleaseDate>
+      <systemReleaseDateFormated>November 21, 1990</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>3F549D</systemColor>
+   </variables>
+</theme>

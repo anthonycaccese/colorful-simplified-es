@@ -1,0 +1,16 @@
+<theme>
+   <variables>
+      <systemDescription>Moonlight is an open source implementation of NVIDIA's GameStream protocol. It allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig.</systemDescription>
+      <systemManufacturer>CWR University</systemManufacturer>
+      <systemReleaseYear>2014</systemReleaseYear>
+      <systemReleaseDate>2014</systemReleaseDate>
+      <systemReleaseDateFormated>2014</systemReleaseDateFormated>
+      <systemHardwareType>System</systemHardwareType>
+      <systemColor>222222</systemColor>
+   </variables>
+   <view name="system,basic,detailed,video">
+      <text name="systemLabel" extra="true">
+         <text>${systemHardwareType}</text>
+      </text>
+   </view>
+</theme>

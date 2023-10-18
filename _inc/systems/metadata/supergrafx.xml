@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>SuperGrafx</systemName>
+      <systemDescription>The SuperGrafx (PCエンジンスーパーグラフィックス, Pī Shī Enjin SūpāGurafikkusu) is a fourth-generation home video game console manufactured by NEC. It is the successor to the PC Engine and was purported to be a true 16-bit home console, featuring improved graphics and audio capabilities.</systemDescription>
+      <systemManufacturer>NEC</systemManufacturer>
+      <systemReleaseYear>1989</systemReleaseYear>
+      <systemReleaseDate>1989-12-08</systemReleaseDate>
+      <systemReleaseDateFormated>December 8, 1989</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>69b5dc</systemColor>
+   </variables>
+</theme>

@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>The Game Gear is an 8-bit fourth generation handheld game console. It shares much of its hardware with the Master System, and can play Master System games by the use of an adapter.</systemDescription>
+      <systemManufacturer>Sega</systemManufacturer>
+      <systemReleaseYear>1990</systemReleaseYear>
+      <systemReleaseDate>1990-10-06</systemReleaseDate>
+      <systemReleaseDateFormated>October 6, 1990</systemReleaseDateFormated>
+      <systemHardwareType>Portable</systemHardwareType>
+      <systemColor>366fb1</systemColor>
+   </variables>
+</theme>

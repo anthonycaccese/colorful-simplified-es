@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>3DO Interactive Multiplayer</systemName>
+      <systemDescription>The 3DO Interactive Multiplayer (often called simply 3DO) is a video game console originally produced by Panasonic in 1993. The consoles were manufactured according to specifications created by The 3DO Companyand the system was conceived by Electronic Arts founder Trip Hawkins.</systemDescription>
+      <systemManufacturer>Panasonic</systemManufacturer>
+      <systemReleaseYear>1993</systemReleaseYear>
+      <systemReleaseDate>1993-10-04</systemReleaseDate>
+      <systemReleaseDateFormated>October 4, 1993</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>CFA83E</systemColor>
+   </variables>
+</theme>

@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>Sega CD</systemName>
+      <systemDescription>The Sega CD is a CD-ROM accessory for the Mega Drive/Genesis designed and produced by Sega as part of the fourth generation of video game consoles. The Sega CD plays CD-based games and adds hardware functionality such as a faster processing and enhancements like sprite scaling and rotation.</systemDescription>
+      <systemManufacturer>Sega</systemManufacturer>
+      <systemReleaseYear>1992</systemReleaseYear>
+      <systemReleaseDate>1992-10-15</systemReleaseDate>
+      <systemReleaseDateFormated>October 15, 1992</systemReleaseDateFormated>
+      <systemHardwareType>Peripheral</systemHardwareType>
+      <systemColor>0C7BCB</systemColor>
+   </variables>
+</theme>

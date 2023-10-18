@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>The TurboGrafx-16 is a 16-bit fourth-generation home video game console designed by Hudson Soft and sold by NEC Home Electronics. It was the first console released in the 16-bit era, although it used a modified 8-bit CPU.</systemDescription>
+      <systemManufacturer>NEC</systemManufacturer>
+      <systemReleaseYear>1989</systemReleaseYear>
+      <systemReleaseDate>1989-08-29</systemReleaseDate>
+      <systemReleaseDateFormated>August 29, 1989</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>F2984B</systemColor>
+   </variables>
+</theme>

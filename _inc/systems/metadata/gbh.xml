@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>Game Boy</systemName>
+      <systemDescription>The Game Boy is an 8-bit handheld video game console developed and manufactured by Nintendo. It was created by Gunpei Yokoi and Nintendo's Research and Development — the same staff who had designed the Game &amp; Watch series as well as several popular games for the NES.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>1989</systemReleaseYear>
+      <systemReleaseDate>1989-04-21</systemReleaseDate>
+      <systemReleaseDateFormated>April 21, 1989</systemReleaseDateFormated>
+      <systemHardwareType>Portable</systemHardwareType>
+      <systemColor>3F518A</systemColor>
+   </variables>
+</theme>

@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>The Sony PlayStation is a fifth generation (1993–2005) video game console developed and distributed by Sony Interactive Entertainment. The PlayStation was known for standardizing disc based games over cartridges, as well as controllers with two analog sticks and vibration feedback.</systemDescription>
+      <systemManufacturer>Sony</systemManufacturer>
+      <systemReleaseYear>1994</systemReleaseYear>
+      <systemReleaseDate>1994-12-03</systemReleaseDate>
+      <systemReleaseDateFormated>December 3, 1994</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>858B90</systemColor>
+   </variables>
+</theme>

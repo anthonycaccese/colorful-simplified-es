@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>The WonderSwan is a handheld game console released in Japan by Bandai. It was developed by Gunpei Yokoi's company Koto Laboratory and Bandai, and was the last piece of hardware Yokoi developed before his death in 1997.</systemDescription>
+      <systemManufacturer>Bandai</systemManufacturer>
+      <systemReleaseYear>2000</systemReleaseYear>
+      <systemReleaseDate>2000-12-09</systemReleaseDate>
+      <systemReleaseDateFormated>December 9, 2000</systemReleaseDateFormated>
+      <systemHardwareType>Portable</systemHardwareType>
+      <systemColor>3FB0E6</systemColor>
+   </variables>
+</theme>

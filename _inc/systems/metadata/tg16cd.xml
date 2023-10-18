@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>The TurboGrafx-CD was released in the United States in November 1989, with a remodeled interface unit in order to suit the different shape of the TurboGrafx-16 console. The TurboGrafx-CD had a launch price of $399.99 and did not include any bundled games. Fighting Street and Monster Lair were the TurboGrafx-CD launch titles; Ys Book I and II soon followed.</systemDescription>
+      <systemManufacturer>NEC</systemManufacturer>
+      <systemReleaseYear>1989</systemReleaseYear>
+      <systemReleaseDate>1989-11-01</systemReleaseDate>
+      <systemReleaseDateFormated>November 1, 1989</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>F2984B</systemColor>
+   </variables>
+</theme>

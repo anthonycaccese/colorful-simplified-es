@@ -1,0 +1,16 @@
+<theme>
+   <variables>
+      <systemDescription>View and play all of your favorite game ports.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>System</systemHardwareType>
+      <systemColor>3161BC</systemColor>
+   </variables>
+   <view name="system,basic,detailed,video">
+      <text name="systemLabel" extra="true">
+         <text>${systemHardwareType}</text>
+      </text>
+   </view>
+</theme>

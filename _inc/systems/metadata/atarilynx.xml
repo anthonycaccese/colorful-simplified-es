@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>Atari Lynx</systemName>
+      <systemDescription>The Atari Lynx, usually referred to as Lynx, is a fourth generation (1987-2004) handheld console developed in partnership with Epyx. It was the world's first handheld electronic game with a color LCD screen.</systemDescription>
+      <systemManufacturer>Atari</systemManufacturer>
+      <systemReleaseYear>1989</systemReleaseYear>
+      <systemReleaseDate>1989-09-01</systemReleaseDate>
+      <systemReleaseDateFormated>September 1, 1989</systemReleaseDateFormated>
+      <systemHardwareType>Portable</systemHardwareType>
+      <systemColor>E19735</systemColor>
+   </variables>
+</theme>

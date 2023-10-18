@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>The PlayStation 3 (PS3) is a home video game console developed by Sony Computer Entertainment. It is the successor to PlayStation 2, and is part of the PlayStation brand of consoles. It was first released on November 11, 2006 in Japan, November 17, 2006 in North America, and March 23, 2007 in Europe and Australia.</systemDescription>
+      <systemManufacturer>Sony</systemManufacturer>
+      <systemReleaseYear>2006</systemReleaseYear>
+      <systemReleaseDate>2006-11-11</systemReleaseDate>
+      <systemReleaseDateFormated>November 11, 2006</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>367EDB</systemColor>
+   </variables>
+</theme>

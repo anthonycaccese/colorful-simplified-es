@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>Commodore Amiga CD32</systemName>
+      <systemDescription>The Amiga CD32, styled "CD32" and code-named "Spellbound", is a 32-bit home video game console developed by Commodore. It was based on Commodore's Advanced Graphics Architecture chipset, and is of similar specification to the Amiga 1200 computer.</systemDescription>
+      <systemManufacturer>Commodore</systemManufacturer>
+      <systemReleaseYear>1993</systemReleaseYear>
+      <systemReleaseDate>1993-09-17</systemReleaseDate>
+      <systemReleaseDateFormated>September 17, 1993</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>df473b</systemColor>
+   </variables>
+</theme>
