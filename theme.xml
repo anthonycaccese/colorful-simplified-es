@@ -35,8 +35,8 @@ license:       creative commons CC-BY-NC-SA
 
    <!-- Background Color -->
    <subset name="background-color" displayName="Background Color">
-      <include name="system" displayName="System Specific" />
-      <include name="black" displayName="Black" />
+      <include name="colorful" displayName="Colorful" />
+      <include name="dark" displayName="Dark" />
    </subset>
 
    <!-- Display Resolution -->
@@ -131,8 +131,8 @@ license:       creative commons CC-BY-NC-SA
          <path>${spacerImage}</path>
          <tile>true</tile>
          <zIndex>1</zIndex>
-         <color ifSubset="background-color:system">${systemColor}</color>
-         <color ifSubset="background-color:black">000000</color>
+         <color ifSubset="background-color:colorful">${systemColor}</color>
+         <color ifSubset="background-color:dark">111111</color>
       </image>
       <image name="logo">
          <path ifSubset="resolution:hd">./_inc/systems/images-hd/_default.webp</path>
@@ -200,8 +200,8 @@ license:       creative commons CC-BY-NC-SA
          <path>${spacerImage}</path>
          <tile>true</tile>
          <zIndex>1</zIndex>
-         <color ifSubset="background-color:system">${systemColor}bb</color>
-         <color ifSubset="background-color:black">000000</color>
+         <color ifSubset="background-color:colorful">${systemColor}bb</color>
+         <color ifSubset="background-color:dark">111111</color>
       </image>
       <text name="logoText">
          <pos>1 1</pos>
@@ -297,8 +297,10 @@ license:       creative commons CC-BY-NC-SA
          <origin>0.5 0.5</origin>
          <pos>0.6875 0.5</pos><!-- 1320 -->
          <size>0.5625 1</size>
-         <path ifSubset="resolution:hd">./_inc/systems/images-hd/${system.theme}.png</path>
-         <path ifSubset="resolution:4k">./_inc/systems/images-4k/${system.theme}.png</path>
+         <path ifSubset="resolution:hd">./_inc/systems/images-hd/_default.webp</path>
+         <path ifSubset="resolution:4k">./_inc/systems/images-4k/_default.webp</path>
+         <path ifSubset="resolution:hd">./_inc/systems/images-hd/${system.theme}.webp</path>
+         <path ifSubset="resolution:4k">./_inc/systems/images-4k/${system.theme}.webp</path>
       </image>
    </view>
 
