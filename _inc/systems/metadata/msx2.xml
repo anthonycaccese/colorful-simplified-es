@@ -1,7 +1,7 @@
 <theme>
    <variables>
       <systemName>MSX 2</systemName>
-      <systemDescription>MSX is a standardized home computer architecture, announced on June 16, 1983. Microsoft and Nishi conceived the project as an attempt to create unified standards among various home computing system manufacturers of the period, in the same fashion as the VHS standard for home video tape machines.</systemDescription>
+      <systemDescription>MSX is a standardized computer architecture, announced by Microsoft and ASCII Corporation on June 16, 1983.Microsoft and Kazuhiko Nishi conceived the project as an attempt to create unified standards for home computers, in the same fashion as the VHS standard for home video tape machines.</systemDescription>
       <systemManufacturer>Microsoft</systemManufacturer>
       <systemReleaseYear>1985</systemReleaseYear>
       <systemReleaseDate>1985-01-01</systemReleaseDate>

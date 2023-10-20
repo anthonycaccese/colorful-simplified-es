@@ -1,5 +1,6 @@
 <theme>
    <variables>
+      <systemName>PlayStation 2</systemName>
       <systemDescription>The PlayStation 2 (PS2) is a home video game console developed and marketed by Sony Computer Entertainment. It is the successor to the original PlayStation, as well as the second installment in the PlayStation console line-up. A sixth-generation console, it competed with Sega's Dreamcast, Nintendo's GameCube, and Microsoft's original Xbox.</systemDescription>
       <systemManufacturer>Sony</systemManufacturer>
       <systemReleaseYear>2000</systemReleaseYear>

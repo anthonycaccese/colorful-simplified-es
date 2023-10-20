@@ -1,5 +1,6 @@
 <theme>
    <variables>
+      <systemName>Virtual Boy</systemName>
       <systemDescription>The Virtual Boy is a 32-bit tabletop portable video game console developed and manufactured by Nintendo. Released in 1995, it was marketed as the first console capable of displaying stereoscopic "3D" graphics.</systemDescription>
       <systemManufacturer>Nintendo</systemManufacturer>
       <systemReleaseYear>1995</systemReleaseYear>

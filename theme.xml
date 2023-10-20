@@ -98,11 +98,12 @@ license:       creative commons CC-BY-NC-SA
       </text>
       <text name="systemName" extra="true">
          <pos>0.075 0.153703703703704</pos><!-- 144 166 -->
-         <size>0.3 0</size>
+         <size>0.3 0.2</size>
          <fontPath>${fontBold}</fontPath>
          <lineSpacing>1</lineSpacing>
          <color>ffffff</color>
          <text>${systemName}</text>
+         <verticalAlignment>top</verticalAlignment>
          <zIndex>5</zIndex>
       </text>
       <helpsystem name="help">
@@ -164,7 +165,6 @@ license:       creative commons CC-BY-NC-SA
          <delay>1</delay>
          <zIndex>2</zIndex>
       </video>
-
       <text name="systemName" extra="true">
          <fontSize>0.062962962962963</fontSize><!-- 68 -->
       </text>

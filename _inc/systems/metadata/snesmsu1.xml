@@ -1,12 +1,12 @@
 <theme>
    <variables>
-      <systemName>Super Nintendo Entertainment System</systemName>
-      <systemDescription>The Super Nintendo Entertainment System (also known as the Super NES, SNES or Super Nintendo) is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America.</systemDescription>
+      <systemName>MSU-1</systemName>
+      <systemDescription>The MSU-1 is a cartridge addon chip (similar to the SuperFx chip) that allows for many enhancements to SNES games including, but not limited to, full-motion video and CD quality sound by adding up to 4GB (yes, 4 gigabytes) of storage for extra content.</systemDescription>
       <systemManufacturer>Nintendo</systemManufacturer>
-      <systemReleaseYear>1992</systemReleaseYear>
-      <systemReleaseDate>1992-04-11</systemReleaseDate>
-      <systemReleaseDateFormated>April 11, 1992</systemReleaseDateFormated>
+      <systemReleaseYear>2012</systemReleaseYear>
+      <systemReleaseDate>2012</systemReleaseDate>
+      <systemReleaseDateFormated>2012</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
-      <systemColor>D74143</systemColor>
+      <systemColor>858B90</systemColor>
    </variables>
 </theme>

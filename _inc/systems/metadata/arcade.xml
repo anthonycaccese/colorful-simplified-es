@@ -1,5 +1,6 @@
 <theme>
    <variables>
+      <systemName>Arcade</systemName>
       <systemDescription>An arcade game or coin-op is a coin-operated entertainment machine typically installed in public businesses such as restaurants, bars and amusement arcades. While exact dates are debated, the golden age of arcade video games is usually defined as a period beginning sometime in the late 1970s and ending sometime in the mid-1980s with a brief resurgence in the 1990s.</systemDescription>
       <systemManufacturer>Various</systemManufacturer>
       <systemReleaseYear>Various</systemReleaseYear>

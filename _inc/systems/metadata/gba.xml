@@ -1,5 +1,6 @@
 <theme>
    <variables>
+      <systemName>Game Boy Advance</systemName>
       <systemDescription>The Game Boy Advance (abbreviated as GBA) is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo as the successor to the Game Boy Color.</systemDescription>
       <systemManufacturer>Nintendo</systemManufacturer>
       <systemReleaseYear>2001</systemReleaseYear>

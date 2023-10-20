@@ -1,15 +1,12 @@
 <theme>
    <variables>
+      <systemName>Neo Geo</systemName>
       <systemDescription>The Neo Geo console was officially launched on 31 January 1990 in Osaka, Japan. The AES is identical to its arcade counterpart, the MVS, so arcade games released for the home market are nearly identical conversions.</systemDescription>
       <systemManufacturer>SNK</systemManufacturer>
       <systemReleaseYear>1990</systemReleaseYear>
       <systemReleaseDate>1990-01-31</systemReleaseDate>
       <systemReleaseDateFormated>January 31, 1990</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
-      <systemColor>7c828c</systemColor>
-      <systemColorPalette1>BF9328</systemColorPalette1>
-      <systemColorPalette2>494949</systemColorPalette2>
-      <systemColorPalette3>2D2D2D</systemColorPalette3>
-      <systemColorPalette4>E8E2E9</systemColorPalette4>
+      <systemColor>7A838B</systemColor>
    </variables>
 </theme>

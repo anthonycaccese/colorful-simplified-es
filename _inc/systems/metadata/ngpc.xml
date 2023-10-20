@@ -1,5 +1,6 @@
 <theme>
    <variables>
+      <systemName>Neo Geo Pocket Color</systemName>
       <systemDescription>The Neo Geo Pocket Color is a 16-bit color handheld manufactured by SNK. It is a successor to SNK's monochrome Neo Geo Pocket handheld which debuted in 1998 in Japan, with the Color being fully backward compatible.</systemDescription>
       <systemManufacturer>SNK</systemManufacturer>
       <systemReleaseYear>1999</systemReleaseYear>

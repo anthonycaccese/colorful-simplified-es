@@ -1,15 +1,12 @@
 <theme>
    <variables>
-      <systemDescription>Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell. Id began developing Doom after the release of their previous FPS, Wolfenstein 3D (1992).</systemDescription>
+      <systemName>iD Tech</systemName>
+      <systemDescription>id Tech is a series of game engines designed and developed by id Software. Prior to the presentation of the id Tech 5 game Rage in 2011, the engines lacked official designation and as such were simply referred to as the Doom and Quake engines, from the name of the main game series the engines had been developed for.</systemDescription>
       <systemManufacturer>id Software</systemManufacturer>
       <systemReleaseYear>1993</systemReleaseYear>
       <systemReleaseDate>1993-12-10</systemReleaseDate>
       <systemReleaseDateFormated>December 10, 1993</systemReleaseDateFormated>
       <systemHardwareType>Engine</systemHardwareType>
       <systemColor>A11321</systemColor>
-      <systemColorPalette1>33709F</systemColorPalette1>
-      <systemColorPalette2>DFDED1</systemColorPalette2>
-      <systemColorPalette3>D37112</systemColorPalette3>
-      <systemColorPalette4>A63417</systemColorPalette4>
    </variables>
 </theme>

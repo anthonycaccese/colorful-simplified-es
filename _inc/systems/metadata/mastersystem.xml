@@ -1,5 +1,6 @@
 <theme>
    <variables>
+      <systemName>Master System</systemName>
       <systemDescription>The Sega Master System is a third-generation 8-bit home video game console manufactured by Sega. It was originally a remodeled export version of the Sega Mark III, the third iteration of the SG-1000 series of consoles, which was released in Japan in 1985 and featured enhanced graphical capabilities over its predecessors.</systemDescription>
       <systemManufacturer>Sega</systemManufacturer>
       <systemReleaseYear>1986</systemReleaseYear>
