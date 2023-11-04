@@ -38,13 +38,7 @@ license:       creative commons CC-BY-NC-SA
       <include name="colorful" displayName="Colorful" />
       <include name="dark" displayName="Dark" />
    </subset>
-
-   <!-- Display Resolution -->
-   <subset name="resolution" displayName="Display Resolution">
-      <include name="hd" displayName="HD" />
-      <include name="4k" displayName="4K" />
-   </subset>
-
+   
    <!-- Help System: Swap A/B -->
    <subset name="swap-a-b" displayName="Swap A/B Buttons">
       <include name="off" displayName="Off" />
@@ -136,10 +130,8 @@ license:       creative commons CC-BY-NC-SA
          <color ifSubset="background-color:dark">111111</color>
       </image>
       <image name="logo">
-         <path ifSubset="resolution:hd">./_inc/systems/images-hd/_default.webp</path>
-         <path ifSubset="resolution:4k">./_inc/systems/images-4k/_default.webp</path>
-         <path ifSubset="resolution:hd">./_inc/systems/images-hd/${system.theme}.webp</path>
-         <path ifSubset="resolution:4k">./_inc/systems/images-4k/${system.theme}.webp</path>
+         <path>./_inc/systems/images/_default.webp</path>
+         <path>./_inc/systems/images/${system.theme}.webp</path>
       </image>
       <carousel name="systemcarousel">
          <origin>0.5 0.5</origin>
@@ -297,10 +289,8 @@ license:       creative commons CC-BY-NC-SA
          <origin>0.5 0.5</origin>
          <pos>0.6875 0.5</pos><!-- 1320 -->
          <size>0.5625 1</size>
-         <path ifSubset="resolution:hd">./_inc/systems/images-hd/_default.webp</path>
-         <path ifSubset="resolution:4k">./_inc/systems/images-4k/_default.webp</path>
-         <path ifSubset="resolution:hd">./_inc/systems/images-hd/${system.theme}.webp</path>
-         <path ifSubset="resolution:4k">./_inc/systems/images-4k/${system.theme}.webp</path>
+         <path>./_inc/systems/images/_default.webp</path>
+         <path>./_inc/systems/images/${system.theme}.webp</path>
       </image>
    </view>
 
