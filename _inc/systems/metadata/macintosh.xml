@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>Macintosh</systemName>
+      <systemDescription>The Macintosh is a family of personal computers designed, manufactured, and sold by Apple Inc since January 1984. The original Macintosh is the first successful all-in-one desktop personal computer with a graphical ui, built-in screen, and mouse.</systemDescription>
+      <systemManufacturer>Apple</systemManufacturer>
+      <systemReleaseYear>1984</systemReleaseYear>
+      <systemReleaseDate>1984-01</systemReleaseDate>
+      <systemReleaseDateFormated>January 1984</systemReleaseDateFormated>
+      <systemHardwareType>Computer</systemHardwareType>
+      <systemColor>83A9B0</systemColor>
+   </variables>
+</theme>
