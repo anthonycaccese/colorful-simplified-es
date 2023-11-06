@@ -1,0 +1,7 @@
+<theme>
+   <view name="system,basic,detailed,video">
+      <text name="systemLabel" extra="true">
+         <text>${systemHardwareType}</text>
+      </text>
+   </view>
+</theme>

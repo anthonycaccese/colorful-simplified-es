@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>Never Played</systemName>
+      <systemDescription>Quick access to the all of games in your library that you haven't played yet.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Collection</systemHardwareType>
+      <systemColor>222222</systemColor>
+   </variables>
+</theme>
