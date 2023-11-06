@@ -9,8 +9,8 @@ license:       creative commons CC-BY-NC-SA
    <formatVersion>7</formatVersion>
 
    <include>./_inc/systems/metadata-global/_default.xml</include>
-   <include>./_inc/systems/metadata-custom/_default.xml</include>
    <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+   <include>./_inc/systems/metadata-custom/_default.xml</include>
    <include>./_inc/systems/metadata-custom/${system.theme}.xml</include>
 
    <!-- Variables -->
@@ -89,7 +89,6 @@ license:       creative commons CC-BY-NC-SA
          <fontSize>0.025925925925926</fontSize><!-- 28 -->
          <lineSpacing>1</lineSpacing>
          <color>ffffffaa</color>
-         <text>${systemManufacturer}  /  ${systemReleaseYear}  /  ${systemHardwareType}</text>
          <zIndex>5</zIndex>
       </text>
       <text name="systemName" extra="true">
@@ -168,10 +167,10 @@ license:       creative commons CC-BY-NC-SA
          <fontPath>${fontLight}</fontPath>
          <fontSize>0.02962962962963</fontSize><!-- 32 -->
          <lineSpacing>1.25</lineSpacing>
-         <verticalAlignment>bottom</verticalAlignment>
+         <verticalAlignment>top</verticalAlignment>
          <color>ffffff</color>
          <text>${systemDescription}</text>
-         <autoScroll>true</autoScroll>
+         <autoScroll>vertical</autoScroll>
          <zIndex>5</zIndex>
       </text>
       <text name="systemInfo">
