@@ -162,8 +162,8 @@ license:       creative commons CC-BY-NC-SA
          <fontSize>0.062962962962963</fontSize><!-- 68 -->
       </text>
       <text name="systemDescription" extra="true">
-         <pos>0.075 0.56</pos>
-         <size>0.3 0.22</size>
+         <pos>0.075 0.54</pos>
+         <size>0.3 0.23</size>
          <fontPath>${fontLight}</fontPath>
          <fontSize>0.02962962962963</fontSize><!-- 32 -->
          <lineSpacing>1.25</lineSpacing>
