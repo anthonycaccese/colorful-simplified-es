@@ -7,11 +7,5 @@
       <systemReleaseDate>Various</systemReleaseDate>
       <systemReleaseDateFormated>Various</systemReleaseDateFormated>
       <systemHardwareType>System</systemHardwareType>
-      <systemColor>222222</systemColor>
    </variables>
-   <view name="system,basic,detailed,video">
-      <text name="systemLabel" extra="true">
-         <text>${systemHardwareType}</text>
-      </text>
-   </view>
 </theme>

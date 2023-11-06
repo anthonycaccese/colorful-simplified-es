@@ -2,12 +2,10 @@
    <variables>
       <systemName>Now Playing</systemName>
       <systemDescription>Quickly access and complete the games on your backlog.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
       <systemHardwareType>Collection</systemHardwareType>
-      <systemColor>222222</systemColor>
    </variables>
-   <view name="system,basic,detailed,video">
-      <text name="systemLabel" extra="true">
-         <text>${systemHardwareType}</text>
-      </text>
-   </view>
 </theme>
