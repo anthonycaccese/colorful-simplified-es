@@ -10,7 +10,7 @@ The reason for the separation of the older branch, FB Alpha, and new spin-off br
       <systemReleaseYear>2002</systemReleaseYear>
       <systemReleaseDate>2002</systemReleaseDate>
       <systemReleaseDateFormated>2002</systemReleaseDateFormated>
-      <systemHardwareType>Emulator</systemHardwareType>
+      <systemHardwareType>Arcade</systemHardwareType>
       <systemColor>5B60B7</systemColor>
       <systemColorPalette1>C0392B</systemColorPalette1>
       <systemColorPalette2>CF8A61</systemColorPalette2>
