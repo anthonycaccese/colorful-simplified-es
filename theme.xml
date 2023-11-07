@@ -8,6 +8,7 @@ license:       creative commons CC-BY-NC-SA
 <theme defaultTransition="slide">
    <formatVersion>7</formatVersion>
 
+   <!-- System Metadata -->
    <include>./_inc/systems/metadata-global/_default.xml</include>
    <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
    <include>./_inc/systems/metadata-custom/_default.xml</include>
@@ -35,11 +36,13 @@ license:       creative commons CC-BY-NC-SA
       <include name="1-1" displayName="1:1" />
    </subset>-->
 
-   <!-- Background Color -->
+   <!-- Color Scheme -->
    <subset name="background-color" displayName="Background Color">
       <include name="colorful" displayName="Colorful" />
       <include name="dark" displayName="Dark" />
+      <include name="light" displayName="Light" />
    </subset>
+   <include>./colors.xml</include>
    
    <!-- Help System: Swap A/B -->
    <subset name="swap-a-b" displayName="Swap A/B Buttons">
@@ -57,10 +60,10 @@ license:       creative commons CC-BY-NC-SA
       <text name="clock">
          <pos>1 1</pos>
       </text>
-     <batteryIndicator name="batteryIndicator">
+      <batteryIndicator name="batteryIndicator">
          <pos>0 0.027777777777778</pos><!-- 0 30 -->
          <size>0.984375 0.042592592592593</size><!-- 1890 46 -->
-         <color>ffffffaa</color>
+         <color>${batteryIndicatorColor}</color>
          <itemSpacing>0</itemSpacing>
          <full>./_inc/images/battery-100-vertical.svg</full>
          <at75>./_inc/images/battery-75-vertical.svg</at75>
@@ -88,7 +91,7 @@ license:       creative commons CC-BY-NC-SA
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.025925925925926</fontSize><!-- 28 -->
          <lineSpacing>1</lineSpacing>
-         <color>ffffffaa</color>
+         <color>${systemLabelColor}</color>
          <zIndex>5</zIndex>
       </text>
       <text name="systemName" extra="true">
@@ -96,7 +99,7 @@ license:       creative commons CC-BY-NC-SA
          <size>0.3 0.2</size>
          <fontPath>${fontBold}</fontPath>
          <lineSpacing>1</lineSpacing>
-         <color>ffffff</color>
+         <color>${systemNameColor}</color>
          <text>${systemName}</text>
          <verticalAlignment>top</verticalAlignment>
          <zIndex>5</zIndex>
@@ -105,8 +108,8 @@ license:       creative commons CC-BY-NC-SA
          <origin>0.5 1</origin>
          <pos>0.5 0.95</pos>
          <fontSize>0.02962962962963</fontSize><!-- 32 -->
-         <iconColor>ffffffaa</iconColor>
-         <textColor>ffffffbb</textColor>
+         <iconColor>${helpIconColor}</iconColor>
+         <textColor>${helpTextColor}</textColor>
          <iconUpDown>./_inc/images/help-dpad-updown.svg</iconUpDown>
          <iconLeftRight>./_inc/images/help-dpad-leftright.svg</iconLeftRight>
          <iconUpDownLeftRight>./_inc/images/help-dpad-updownleftright.svg</iconUpDownLeftRight>
@@ -127,8 +130,7 @@ license:       creative commons CC-BY-NC-SA
          <path>${spacerImage}</path>
          <tile>true</tile>
          <zIndex>1</zIndex>
-         <color ifSubset="background-color:colorful">${systemColor}</color>
-         <color ifSubset="background-color:dark">111111</color>
+         <color>${systemBackgroundColor}</color>
       </image>
       <image name="logo">
          <path>./_inc/systems/images/_default.webp</path>
@@ -147,7 +149,7 @@ license:       creative commons CC-BY-NC-SA
          <defaultTransition>instant</defaultTransition>
          <zIndex>2</zIndex>
       </carousel>
-      <video ifSubset="system-view-video:on" name="systemVideo" extra="true">
+      <video ifSubset="background-color:colorful,system-view-video:on" name="systemVideo" extra="true">
          <origin>0.5 0.5</origin>
          <pos>0.6875 0.5</pos>
          <size>1 1</size>
@@ -168,7 +170,7 @@ license:       creative commons CC-BY-NC-SA
          <fontSize>0.02962962962963</fontSize><!-- 32 -->
          <lineSpacing>1.25</lineSpacing>
          <verticalAlignment>top</verticalAlignment>
-         <color>ffffff</color>
+         <color>${systemDescriptionColor}</color>
          <text>${systemDescription}</text>
          <autoScroll>vertical</autoScroll>
          <zIndex>5</zIndex>
@@ -180,7 +182,7 @@ license:       creative commons CC-BY-NC-SA
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <lineSpacing>1</lineSpacing>
-         <color>ffffff77</color>
+         <color>${systemGameCountColor}</color>
          <zIndex>5</zIndex>
       </text>
    </view>
@@ -193,8 +195,7 @@ license:       creative commons CC-BY-NC-SA
          <path>${spacerImage}</path>
          <tile>true</tile>
          <zIndex>1</zIndex>
-         <color ifSubset="background-color:colorful">${systemColor}bb</color>
-         <color ifSubset="background-color:dark">111111</color>
+         <color>${systemBackgroundColor}</color>
       </image>
       <text name="logoText">
          <pos>1 1</pos>
@@ -209,10 +210,10 @@ license:       creative commons CC-BY-NC-SA
          <alignment>left</alignment>
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.033333333333333</fontSize><!-- 36 -->
-         <selectorColor>00000033</selectorColor>
-         <primaryColor>ffffff88</primaryColor>
-         <secondaryColor>ffffff88</secondaryColor>
-         <selectedColor>ffffff</selectedColor>
+         <selectorColor>${gamelistSelectorColor}</selectorColor>
+         <primaryColor>${gamelistPrimaryColor}</primaryColor>
+         <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
+         <selectedColor>${gamelistSelectedColor}</selectedColor>
          <horizontalMargin>0.009</horizontalMargin>
          <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
       </textlist>
@@ -382,7 +383,5 @@ license:       creative commons CC-BY-NC-SA
    <include ifSubset="aspect-ratio:3-2">./aspect-ratio-3-2.xml</include>
    <include ifSubset="aspect-ratio:5-3">./aspect-ratio-5-3.xml</include>
    <include ifSubset="aspect-ratio:1-1">./aspect-ratio-1-1.xml</include> -->
-
-   <include>./_inc/systems/metadata/${system.theme}.xml</include>
 
 </theme>
