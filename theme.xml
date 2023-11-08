@@ -206,7 +206,7 @@ license:       creative commons CC-BY-NC-SA
       <textlist name="gamelist">
          <origin>0 0</origin>
          <pos>0.066666666666667 0.277777777777778</pos><!-- 128 300 -->
-         <size>0.308333333333333 0.6</size><!-- 592 -->
+         <size>0.308333333333333 0.574</size><!-- 592 -->
          <alignment>left</alignment>
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.033333333333333</fontSize><!-- 36 -->
@@ -273,15 +273,16 @@ license:       creative commons CC-BY-NC-SA
       <image name="md_publisher_icon">
          <path>./_inc/images/icon-publisher.svg</path>
       </image>
+
       <text name="md_description">
          <origin>0 0</origin>
          <fontPath>${fontRegular}</fontPath>
          <color>ffffff</color>
          <forceUppercase>false</forceUppercase>
-         <pos>0.525 0.628703703703704</pos><!-- 1008 679 -->
-         <size>0.399479166666667 0.198148148148148</size><!-- 767 214 -->
+         <pos>0.525 0.615</pos><!-- 1008 679 -->
+         <size>0.399479166666667 0.23</size><!-- 767 214 -->
          <fontPath>${fontRegular}</fontPath>
-         <fontSize>0.033333333333333</fontSize><!-- 42 -->
+         <fontSize>0.03</fontSize><!-- 42 -->
          <lineSpacing>1.6</lineSpacing>
       </text>
    </view>
