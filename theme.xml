@@ -14,6 +14,13 @@ license:       creative commons CC-BY-NC-SA
    <include>./_inc/systems/metadata-custom/_default.xml</include>
    <include>./_inc/systems/metadata-custom/${system.theme}.xml</include>
 
+   <!-- Distribution -->
+   <subset name="distribution" displayName="Distribution">
+      <include name="batocera" displayName="Batocera" />
+      <include name="retrobat" displayName="Retrobat" />
+      <include name="jelos" displayName="JELOS" />
+   </subset>
+
    <!-- Variables -->
    <variables>
       <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
@@ -23,7 +30,10 @@ license:       creative commons CC-BY-NC-SA
       <menuFontLight>./_inc/fonts/Oxygen-Light.ttf</menuFontLight>
       <menuFontRegular>./_inc/fonts/Oxygen-Regular.ttf</menuFontRegular>
       <spacerImage>./_inc/images/space.png</spacerImage>
-      <themeCustomizationsPath>~/roms/jelos/theme-customizations/colorful-simplified/</themeCustomizationsPath>
+      <distributionPath ifSubset="distribution:retrobat">~/.emulationstation/</distributionPath>
+      <distributionPath ifSubset="distribution:jelos">~/roms/jelos/</distributionPath>
+      <distributionPath ifSubset="distribution:batocera">~/</distributionPath>
+      <themeCustomizationsPath>${distributionPath}theme-customizations/colorful-simplified/</themeCustomizationsPath>
    </variables>
 
    <!-- Aspect Ratio -->
@@ -49,9 +59,6 @@ license:       creative commons CC-BY-NC-SA
       <include name="off" displayName="Off" />
       <include name="on" displayName="On" />
    </subset>
-
-   <!-- System View Video -->
-   <include>${themeCustomizationsPath}system-view-video.xml</include>
 
    <view name="screen">
       <controllerActivity name="controllerActivity">
@@ -149,17 +156,6 @@ license:       creative commons CC-BY-NC-SA
          <defaultTransition>instant</defaultTransition>
          <zIndex>2</zIndex>
       </carousel>
-      <video ifSubset="background-color:colorful,system-view-video:on" name="systemVideo" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.6875 0.5</pos>
-         <size>1 1</size>
-         <effect>none</effect>
-         <showSnapshotNoVideo>false</showSnapshotNoVideo>
-         <showSnapshotDelay>false</showSnapshotDelay>
-         <path>${themeCustomizationsPath}/videos/${system.theme}.mp4</path>
-         <delay>1</delay>
-         <zIndex>2</zIndex>
-      </video>
       <text name="systemName" extra="true">
          <fontSize>0.062962962962963</fontSize><!-- 68 -->
       </text>
@@ -219,6 +215,16 @@ license:       creative commons CC-BY-NC-SA
       </textlist>
    </view>
 
+   <view name="basic">
+      <image name="system-artwork" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.6875 0.5</pos><!-- 1320 -->
+         <size>0.5625 1</size>
+         <path>./_inc/systems/images/_default.webp</path>
+         <path>./_inc/systems/images/${system.theme}.webp</path>
+      </image>
+   </view>
+
    <view name="detailed,video">
       <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description,md_name,md_lbl_gametime,md_gametime">
          <origin>0 0.5</origin>
@@ -273,7 +279,6 @@ license:       creative commons CC-BY-NC-SA
       <image name="md_publisher_icon">
          <path>./_inc/images/icon-publisher.svg</path>
       </image>
-
       <text name="md_description">
          <origin>0 0</origin>
          <fontPath>${fontRegular}</fontPath>
@@ -285,16 +290,6 @@ license:       creative commons CC-BY-NC-SA
          <fontSize>0.03</fontSize><!-- 42 -->
          <lineSpacing>1.6</lineSpacing>
       </text>
-   </view>
-
-   <view name="basic">
-      <image name="system-artwork" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.6875 0.5</pos><!-- 1320 -->
-         <size>0.5625 1</size>
-         <path>./_inc/systems/images/_default.webp</path>
-         <path>./_inc/systems/images/${system.theme}.webp</path>
-      </image>
    </view>
 
    <view name="detailed">
@@ -375,6 +370,23 @@ license:       creative commons CC-BY-NC-SA
          <iconShutdown>./_inc/images/menu-icon-shutdown.svg</iconShutdown>
          <iconFastShutdown>./_inc/images/menu-icon-shutdown.svg</iconFastShutdown>
       </menuIcons>
+   </view>
+
+   <!-- Customizations -->
+   <!-- System View Video -->
+   <include>${themeCustomizationsPath}system-view-video/system-view-video.xml</include>
+   <view name="system">
+      <video ifSubset="background-color:colorful,system-view-video:on" name="systemVideo" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.6875 0.5</pos>
+         <size>1 1</size>
+         <effect>none</effect>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+         <path>${themeCustomizationsPath}system-view-video/videos/${system.theme}.mp4</path>
+         <delay>1</delay>
+         <zIndex>2</zIndex>
+      </video>
    </view>
 
    <!-- Aspect Ratio

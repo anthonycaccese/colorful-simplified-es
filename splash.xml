@@ -5,9 +5,6 @@
          <backgroundColor>000000</backgroundColor>
       </splash>
       <image name="background">
-         <!-- Leave default for better OS/device portability -->
-      </image>
-      <image name="logo">
          <origin>0 0</origin>
          <pos>1 1</pos>
       </image>
@@ -18,17 +15,17 @@
          <colorEnd>222222</colorEnd>
       </image>
       <image name="progressbar:active">
-         <color>333333</color>
-         <colorEnd>333333</colorEnd>
+         <color>F6C126</color>
+         <colorEnd>F6C126</colorEnd>
       </image>
       <text name="label">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.6</pos>
          <alignment>center</alignment>
-         <fontPath>./_inc/fonts/Oxygen-Bold.ttf</fontPath>
+         <fontPath>./_inc/fonts/Gilroy-Bold.ttf</fontPath>
          <fontSize>0.04</fontSize>
          <color>ffffff</color>
-         <forceUppercase>true</forceUppercase>
+         <forceUppercase>false</forceUppercase>
       </text>
    </view>
 </theme>
