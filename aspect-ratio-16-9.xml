@@ -1,0 +1,104 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="screen">
+      <batteryIndicator name="batteryIndicator">
+         <pos>0 0.027777777777778</pos><!-- 0 30 -->
+         <size>0.984375 0.042592592592593</size><!-- 1890 46 -->
+      </batteryIndicator>
+   </view>
+
+   <view name="system,basic,detailed,video">
+      <text name="systemLabel" extra="true">
+         <pos>0.075 0.111111111111111</pos><!-- 144 130 -->
+         <size>0.3 0.025925925925926</size>
+         <fontSize>0.025925925925926</fontSize><!-- 28 -->
+         <lineSpacing>1</lineSpacing>
+      </text>
+      <text name="systemName" extra="true">
+         <pos>0.075 0.153703703703704</pos><!-- 144 166 -->
+         <size>0.3 0.2</size>
+         <lineSpacing>1</lineSpacing>
+      </text>
+      <helpsystem name="help">
+         <origin>0.5 1</origin>
+         <pos>0.5 0.95</pos>
+         <fontSize>0.02962962962963</fontSize><!-- 32 -->
+      </helpsystem>
+   </view>
+
+   <view name="system">
+      <carousel name="systemcarousel">
+         <origin>0.5 0.5</origin>
+         <pos>0.6875 0.5</pos><!-- 1320 -->
+         <size>0.5625 1</size>
+      </carousel>
+      <text name="systemName" extra="true">
+         <fontSize>0.062962962962963</fontSize><!-- 68 -->
+      </text>
+      <text name="systemDescription" extra="true">
+         <pos>0.075 0.54</pos>
+         <size>0.3 0.23</size>
+         <fontSize>0.02962962962963</fontSize><!-- 32 -->
+         <lineSpacing>1.25</lineSpacing>
+      </text>
+      <text name="systemInfo">
+         <pos>0.075 0.81</pos>
+         <size>0.3 0</size>
+         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+         <lineSpacing>1</lineSpacing>
+      </text>
+   </view>
+
+   <view name="basic,detailed,video">
+      <text name="systemName" extra="true">
+         <fontSize>0.038888888888889</fontSize><!-- 42 -->
+      </text>
+      <textlist name="gamelist">
+         <pos>0.066666666666667 0.277777777777778</pos><!-- 128 300 -->
+         <size>0.308333333333333 0.574</size><!-- 592 -->
+         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+      </textlist>
+   </view>
+
+   <view name="basic">
+      <image name="system-artwork" extra="true">
+         <pos>0.6875 0.5</pos><!-- 1320 -->
+         <size>0.5625 1</size>
+      </image>
+   </view>
+
+   <view name="detailed,video">
+      <text name="md_description">
+         <pos>0.525 0.615</pos><!-- 1008 679 -->
+         <size>0.399479166666667 0.23</size><!-- 767 214 -->
+         <fontSize>0.03</fontSize><!-- 42 -->
+         <lineSpacing>1.6</lineSpacing>
+      </text>
+   </view>
+
+   <view name="detailed">
+      <image name="md_image">
+         <pos>0.724739583333333 0.333333333333333</pos><!-- 1391.5 360 -->
+         <maxSize>0.399479166666667 0.444444444444444</maxSize><!-- 767 480 -->
+      </image>
+   </view>
+
+   <view name="video">
+      <video name="md_video">
+         <pos>0.724739583333333 0.333333333333333</pos><!-- 1391.5 360 -->
+         <maxSize>0.399479166666667 0.444444444444444</maxSize><!-- 767 480 -->
+      </video>
+   </view>
+
+   <!-- Customizations -->
+   <!-- System View Video -->
+   <view name="system">
+      <video ifSubset="background-color:colorful,system-view-video:on" name="systemVideo" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.6875 0.5</pos>
+         <size>1 1</size>
+      </video>
+   </view>
+
+</theme>

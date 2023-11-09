@@ -37,14 +37,14 @@ license:       creative commons CC-BY-NC-SA
    </variables>
 
    <!-- Aspect Ratio -->
-   <!--<subset name="aspect-ratio" displayName="Aspect Ratio">
+   <subset name="aspect-ratio" displayName="Aspect Ratio">
       <include name="16-9" displayName="16:9" />
-      <include name="16-10" displayName="16:10" />
+      <!--<include name="16-10" displayName="16:10" />
       <include name="4-3" displayName="4:3" />
       <include name="3-2" displayName="3:2" />
-      <include name="5-3" displayName="5:3" />
+      <include name="5-3" displayName="5:3" />-->
       <include name="1-1" displayName="1:1" />
-   </subset>-->
+   </subset>
 
    <!-- Color Scheme -->
    <subset name="background-color" displayName="Background Color">
@@ -68,8 +68,6 @@ license:       creative commons CC-BY-NC-SA
          <pos>1 1</pos>
       </text>
       <batteryIndicator name="batteryIndicator">
-         <pos>0 0.027777777777778</pos><!-- 0 30 -->
-         <size>0.984375 0.042592592592593</size><!-- 1890 46 -->
          <color>${batteryIndicatorColor}</color>
          <itemSpacing>0</itemSpacing>
          <full>./_inc/images/battery-100-vertical.svg</full>
@@ -93,28 +91,18 @@ license:       creative commons CC-BY-NC-SA
          <color>000000</color>
       </image>
       <text name="systemLabel" extra="true">
-         <pos>0.075 0.111111111111111</pos><!-- 144 130 -->
-         <size>0.3 0.025925925925926</size>
          <fontPath>${fontBold}</fontPath>
-         <fontSize>0.025925925925926</fontSize><!-- 28 -->
-         <lineSpacing>1</lineSpacing>
          <color>${systemLabelColor}</color>
          <zIndex>5</zIndex>
       </text>
       <text name="systemName" extra="true">
-         <pos>0.075 0.153703703703704</pos><!-- 144 166 -->
-         <size>0.3 0.2</size>
          <fontPath>${fontBold}</fontPath>
-         <lineSpacing>1</lineSpacing>
          <color>${systemNameColor}</color>
          <text>${systemName}</text>
          <verticalAlignment>top</verticalAlignment>
          <zIndex>5</zIndex>
       </text>
       <helpsystem name="help">
-         <origin>0.5 1</origin>
-         <pos>0.5 0.95</pos>
-         <fontSize>0.02962962962963</fontSize><!-- 32 -->
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
          <iconUpDown>./_inc/images/help-dpad-updown.svg</iconUpDown>
@@ -144,9 +132,6 @@ license:       creative commons CC-BY-NC-SA
          <path>./_inc/systems/images/${system.theme}.webp</path>
       </image>
       <carousel name="systemcarousel">
-         <origin>0.5 0.5</origin>
-         <pos>0.6875 0.5</pos><!-- 1320 -->
-         <size>0.5625 1</size>
          <color>00000000</color>
          <type>horizontal</type>
          <logoScale>1</logoScale>
@@ -156,15 +141,8 @@ license:       creative commons CC-BY-NC-SA
          <defaultTransition>instant</defaultTransition>
          <zIndex>2</zIndex>
       </carousel>
-      <text name="systemName" extra="true">
-         <fontSize>0.062962962962963</fontSize><!-- 68 -->
-      </text>
       <text name="systemDescription" extra="true">
-         <pos>0.075 0.54</pos>
-         <size>0.3 0.23</size>
          <fontPath>${fontLight}</fontPath>
-         <fontSize>0.02962962962963</fontSize><!-- 32 -->
-         <lineSpacing>1.25</lineSpacing>
          <verticalAlignment>top</verticalAlignment>
          <color>${systemDescriptionColor}</color>
          <text>${systemDescription}</text>
@@ -172,11 +150,8 @@ license:       creative commons CC-BY-NC-SA
          <zIndex>5</zIndex>
       </text>
       <text name="systemInfo">
-         <pos>0.075 0.81</pos>
-         <size>0.3 0</size>
          <alignment>left</alignment>
          <fontPath>${fontBold}</fontPath>
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <lineSpacing>1</lineSpacing>
          <color>${systemGameCountColor}</color>
          <zIndex>5</zIndex>
@@ -196,16 +171,10 @@ license:       creative commons CC-BY-NC-SA
       <text name="logoText">
          <pos>1 1</pos>
       </text>
-      <text name="systemName" extra="true">
-         <fontSize>0.038888888888889</fontSize><!-- 42 -->
-      </text>
       <textlist name="gamelist">
          <origin>0 0</origin>
-         <pos>0.066666666666667 0.277777777777778</pos><!-- 128 300 -->
-         <size>0.308333333333333 0.574</size><!-- 592 -->
          <alignment>left</alignment>
          <fontPath>${fontBold}</fontPath>
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <primaryColor>${gamelistPrimaryColor}</primaryColor>
          <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
@@ -218,8 +187,6 @@ license:       creative commons CC-BY-NC-SA
    <view name="basic">
       <image name="system-artwork" extra="true">
          <origin>0.5 0.5</origin>
-         <pos>0.6875 0.5</pos><!-- 1320 -->
-         <size>0.5625 1</size>
          <path>./_inc/systems/images/_default.webp</path>
          <path>./_inc/systems/images/${system.theme}.webp</path>
       </image>
@@ -284,19 +251,13 @@ license:       creative commons CC-BY-NC-SA
          <fontPath>${fontRegular}</fontPath>
          <color>ffffff</color>
          <forceUppercase>false</forceUppercase>
-         <pos>0.525 0.615</pos><!-- 1008 679 -->
-         <size>0.399479166666667 0.23</size><!-- 767 214 -->
          <fontPath>${fontRegular}</fontPath>
-         <fontSize>0.03</fontSize><!-- 42 -->
-         <lineSpacing>1.6</lineSpacing>
       </text>
    </view>
 
    <view name="detailed">
       <image name="md_image">
          <origin>0.5 0.5</origin>
-         <pos>0.724739583333333 0.333333333333333</pos><!-- 1391.5 360 -->
-         <maxSize>0.399479166666667 0.444444444444444</maxSize><!-- 767 480 -->
          <zIndex>3</zIndex>
       </image>
    </view>
@@ -304,8 +265,6 @@ license:       creative commons CC-BY-NC-SA
    <view name="video">
       <video name="md_video">
          <origin>0.5 0.5</origin>
-         <pos>0.724739583333333 0.333333333333333</pos><!-- 1391.5 360 -->
-         <maxSize>0.399479166666667 0.444444444444444</maxSize><!-- 767 480 -->
          <delay>2</delay>
          <effect>none</effect>
          <showSnapshotDelay>true</showSnapshotDelay>
@@ -377,9 +336,6 @@ license:       creative commons CC-BY-NC-SA
    <include>${themeCustomizationsPath}system-view-video/system-view-video.xml</include>
    <view name="system">
       <video ifSubset="background-color:colorful,system-view-video:on" name="systemVideo" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.6875 0.5</pos>
-         <size>1 1</size>
          <effect>none</effect>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
@@ -389,12 +345,12 @@ license:       creative commons CC-BY-NC-SA
       </video>
    </view>
 
-   <!-- Aspect Ratio
+   <!-- Aspect Ratio -->
    <include ifSubset="aspect-ratio:16-9">./aspect-ratio-16-9.xml</include>
-   <include ifSubset="aspect-ratio:16-10">./aspect-ratio-16-10.xml</include>
+   <!--<include ifSubset="aspect-ratio:16-10">./aspect-ratio-16-10.xml</include>
    <include ifSubset="aspect-ratio:4-3">./aspect-ratio-4-3.xml</include>
    <include ifSubset="aspect-ratio:3-2">./aspect-ratio-3-2.xml</include>
-   <include ifSubset="aspect-ratio:5-3">./aspect-ratio-5-3.xml</include>
-   <include ifSubset="aspect-ratio:1-1">./aspect-ratio-1-1.xml</include> -->
+   <include ifSubset="aspect-ratio:5-3">./aspect-ratio-5-3.xml</include> -->
+   <include ifSubset="aspect-ratio:1-1">./aspect-ratio-1-1.xml</include>
 
 </theme>
