@@ -30,9 +30,9 @@ license:       creative commons CC-BY-NC-SA
       <menuFontLight>./_inc/fonts/Oxygen-Light.ttf</menuFontLight>
       <menuFontRegular>./_inc/fonts/Oxygen-Regular.ttf</menuFontRegular>
       <spacerImage>./_inc/images/space.png</spacerImage>
-      <distributionPath ifSubset="distribution:retrobat">~/.emulationstation/</distributionPath>
-      <distributionPath ifSubset="distribution:jelos">~/roms/jelos/</distributionPath>
-      <distributionPath ifSubset="distribution:batocera">~/</distributionPath>
+      <distributionPath ifSubset="distribution:retrobat">~/.emulationstation/</distributionPath><!-- RetroBat\emulationstation\.emulationstation\ -->
+      <distributionPath ifSubset="distribution:jelos">~/roms/jelos/</distributionPath><!-- storage/roms/jelos/ -->
+      <distributionPath ifSubset="distribution:batocera">./../../</distributionPath><!-- userdata/ -->
       <themeCustomizationsPath>${distributionPath}theme-customizations/colorful-simplified/</themeCustomizationsPath>
    </variables>
 
