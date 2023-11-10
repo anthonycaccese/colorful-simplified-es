@@ -1,6 +1,8 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+   <include>./help-system.xml</include>
+
    <view name="screen">
       <batteryIndicator name="batteryIndicator">
          <pos>0 0.027777777777778</pos><!-- 0 30 -->
