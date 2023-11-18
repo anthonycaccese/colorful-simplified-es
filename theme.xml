@@ -101,6 +101,7 @@ license:       creative commons CC-BY-NC-SA
       </text>
       <text name="systemName" extra="true">
          <fontPath>${fontBold}</fontPath>
+         <text>${systemName}</text>
          <lineSpacing>1</lineSpacing>
          <color>${systemNameColor}</color>
          <verticalAlignment>top</verticalAlignment>
@@ -115,21 +116,22 @@ license:       creative commons CC-BY-NC-SA
          <path>./_inc/systems/images/${system.theme}.webp</path>
       </image>
       <carousel name="systemcarousel">
-         <type>horizontal</type>
+         <type>vertical</type>
          <logoScale>1</logoScale>
          <logoSize>1 1</logoSize>
          <maxLogoCount>1</maxLogoCount>
          <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
          <defaultTransition>instant</defaultTransition>
          <color>00000000</color>
-         <zIndex>5</zIndex>
+         <zIndex>1</zIndex>
       </carousel>
       <text name="systemDescription" extra="true">
          <fontPath>${fontLight}</fontPath>
          <text>${systemDescription}</text>
          <color>${systemDescriptionColor}</color>
          <container>true</container>
-         <verticalAlignment>bottom</verticalAlignment>
+         <verticalAlignment>top</verticalAlignment>
+         <autoScroll>vertical</autoScroll>
          <zIndex>5</zIndex>
       </text>
       <text name="systemInfo">
@@ -180,7 +182,7 @@ license:       creative commons CC-BY-NC-SA
          <format>%Y-%m-%d</format>
       </datetime>
       <rating name="md_rating">
-         <origin>0 0</origin>
+         <origin>0.5 0</origin>
          <pos>1 1</pos>
       </rating>
    </view>
@@ -234,7 +236,6 @@ license:       creative commons CC-BY-NC-SA
          <text>Rating</text>
       </text>
       <rating name="md_rating">
-         <origin>0.5 0</origin>
          <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
          <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
          <color>${gameMetadata}</color>
@@ -281,7 +282,7 @@ license:       creative commons CC-BY-NC-SA
       <text name="md_gametime">
          <!-- Values set in Aspect Ratio files -->
       </text>
-      <image name="game-metadata-background">
+      <image name="game-metadata-background" extra="true">
          <path>${gameMetadataBackground}</path>
       </image>
    </view>

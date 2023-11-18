@@ -112,7 +112,7 @@
       </text>
       <rating name="md_rating">
          <pos>0.865885416666667 0.155555555555556</pos><!-- 1662.5 px 168 -->
-         <size>0.115104166666667 0.027777777777778</size><!-- 221 30 -->
+         <size>0 0.027777777777778</size><!-- 221 30 -->
       </rating>
       <text name="md_lbl_releasedate">
          <pos>0.808333333333333 0.208333333333333</pos><!-- 1552 225 --> 
@@ -156,7 +156,7 @@
       <text name="md_gametime">
          <pos>0.808333333333333 0.784259259259259</pos><!-- 1552 847 -->
       </text>
-      <image name="game-metadata-background">
+      <image name="game-metadata-background" extra="true">
          <pos>0.796875 0.111111111111111</pos><!-- 1530 120 -->
          <size>0.135416666666667 0.717592592592593</size><!-- 260 775 -->
       </image>
@@ -180,7 +180,7 @@
       <video ifSubset="background-color:colorful,system-view-video:on" name="systemVideo" extra="true">
          <origin>0.5 0.5</origin>
          <pos>0.6875 0.5</pos><!-- 1320 -->
-         <size>0.65 1</size>
+         <size>1 1</size>
       </video>
    </view>
 
