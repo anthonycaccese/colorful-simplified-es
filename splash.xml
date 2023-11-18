@@ -15,8 +15,8 @@
          <colorEnd>222222</colorEnd>
       </image>
       <image name="progressbar:active">
-         <color>F6C126</color>
-         <colorEnd>F6C126</colorEnd>
+         <color>333333</color>
+         <colorEnd>333333</colorEnd>
       </image>
       <text name="label">
          <origin>0.5 0.5</origin>

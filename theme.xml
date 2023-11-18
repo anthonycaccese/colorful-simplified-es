@@ -23,13 +23,14 @@ license:       creative commons CC-BY-NC-SA
 
    <!-- Variables -->
    <variables>
-      <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
-      <fontRegular>./_inc/fonts/Oxygen-Regular.ttf</fontRegular>
+      <spacerImage>./_inc/images/space.png</spacerImage>
       <fontLight>./_inc/fonts/Gilroy-Light.ttf</fontLight>
+      <fontRegular>./_inc/fonts/Gilroy-Regular.ttf</fontRegular>
+      <fontSemiBold>./_inc/fonts/Gilroy-SemiBold.ttf</fontSemiBold>
+      <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
       <menuFontBold>./_inc/fonts/Oxygen-Bold.ttf</menuFontBold>
       <menuFontLight>./_inc/fonts/Oxygen-Light.ttf</menuFontLight>
       <menuFontRegular>./_inc/fonts/Oxygen-Regular.ttf</menuFontRegular>
-      <spacerImage>./_inc/images/space.png</spacerImage>
       <distributionPath ifSubset="distribution:retrobat">~/.emulationstation/</distributionPath><!-- RetroBat\emulationstation\.emulationstation\ -->
       <distributionPath ifSubset="distribution:jelos">~/roms/jelos/</distributionPath><!-- storage/roms/jelos/ -->
       <distributionPath ifSubset="distribution:batocera">./../../</distributionPath><!-- userdata/ -->
@@ -49,11 +50,18 @@ license:       creative commons CC-BY-NC-SA
    <!-- Color Scheme -->
    <subset name="background-color" displayName="Background Color">
       <include name="colorful" displayName="Colorful" />
-      <include name="dark" displayName="Dark" />
       <include name="light" displayName="Light" />
+      <include name="dark" displayName="Dark" />
    </subset>
    <include>./colors.xml</include>
 
+   <!-- Gamelist View Style -->
+   <subset name="gamelist-view-style" displayName="Gamelist View Style">
+      <include name="metadata-off" displayName="Metadata Off" />
+      <include name="metadata-on" displayName="Metadata On" />
+   </subset>
+
+   <!-- Screen -->
    <view name="screen">
       <controllerActivity name="controllerActivity">
          <visible>false</visible>
@@ -74,6 +82,7 @@ license:       creative commons CC-BY-NC-SA
       </batteryIndicator>
    </view>
 
+   <!-- All Views -->
    <view name="system,basic,detailed,video">
       <image name="background" extra="true">
          <origin>0 0</origin>
@@ -81,179 +90,203 @@ license:       creative commons CC-BY-NC-SA
          <size>1 1</size>
          <path>${spacerImage}</path>
          <tile>true</tile>
+         <color>${systemBackgroundColor}</color>
          <zIndex>0</zIndex>
-         <color>000000</color>
       </image>
       <text name="systemLabel" extra="true">
-         <fontPath>${fontBold}</fontPath>
+         <fontPath>${fontSemiBold}</fontPath>
+         <lineSpacing>1</lineSpacing>
          <color>${systemLabelColor}</color>
          <zIndex>5</zIndex>
       </text>
       <text name="systemName" extra="true">
          <fontPath>${fontBold}</fontPath>
+         <lineSpacing>1</lineSpacing>
          <color>${systemNameColor}</color>
-         <text>${systemName}</text>
          <verticalAlignment>top</verticalAlignment>
          <zIndex>5</zIndex>
       </text>
    </view>
 
+   <!-- System View -->
    <view name="system">
-      <image name="systemBackground" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>${spacerImage}</path>
-         <tile>true</tile>
-         <zIndex>1</zIndex>
-         <color>${systemBackgroundColor}</color>
-      </image>
       <image name="logo">
          <path>./_inc/systems/images/_default.webp</path>
          <path>./_inc/systems/images/${system.theme}.webp</path>
       </image>
       <carousel name="systemcarousel">
-         <color>00000000</color>
          <type>horizontal</type>
          <logoScale>1</logoScale>
          <logoSize>1 1</logoSize>
          <maxLogoCount>1</maxLogoCount>
          <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
          <defaultTransition>instant</defaultTransition>
-         <zIndex>2</zIndex>
+         <color>00000000</color>
+         <zIndex>5</zIndex>
       </carousel>
       <text name="systemDescription" extra="true">
          <fontPath>${fontLight}</fontPath>
-         <verticalAlignment>top</verticalAlignment>
-         <color>${systemDescriptionColor}</color>
          <text>${systemDescription}</text>
-         <autoScroll>vertical</autoScroll>
+         <color>${systemDescriptionColor}</color>
+         <container>true</container>
+         <verticalAlignment>bottom</verticalAlignment>
          <zIndex>5</zIndex>
       </text>
       <text name="systemInfo">
          <alignment>left</alignment>
          <fontPath>${fontBold}</fontPath>
-         <lineSpacing>1</lineSpacing>
          <color>${systemGameCountColor}</color>
          <zIndex>5</zIndex>
       </text>
    </view>
 
+   <!-- Gamelist View: All -->
    <view name="basic,detailed,video">
-      <image name="gamelistBackground" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>${spacerImage}</path>
-         <tile>true</tile>
-         <zIndex>1</zIndex>
-         <color>${systemBackgroundColor}</color>
-      </image>
       <text name="logoText">
          <pos>1 1</pos>
       </text>
       <textlist name="gamelist">
          <origin>0 0</origin>
          <alignment>left</alignment>
-         <fontPath>${fontBold}</fontPath>
+         <fontPath>${fontRegular}</fontPath>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <primaryColor>${gamelistPrimaryColor}</primaryColor>
          <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
-         <horizontalMargin>0.009</horizontalMargin>
          <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
       </textlist>
    </view>
 
+   <!--Gamelist: Basic -->
    <view name="basic">
       <image name="system-artwork" extra="true">
          <origin>0.5 0.5</origin>
-         <path>./_inc/systems/images/_default.webp</path>
          <path>./_inc/systems/images/${system.theme}.webp</path>
+         <default>./_inc/systems/images/_default.webp</default>
       </image>
    </view>
 
+   <!--Gamelist: Detailed & Video -->
    <view name="detailed,video">
       <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description,md_name,md_lbl_gametime,md_gametime">
-         <origin>0 0.5</origin>
+         <origin>0 0</origin>
          <pos>1 1</pos>
-         <fontPath>${fontBold}</fontPath>
          <alignment>left</alignment>
-         <color>ffffff</color>
-         <forceUppercase>true</forceUppercase>
       </text>
       <datetime name="md_releasedate,md_lastplayed">
-         <origin>0 0.5</origin>
+         <origin>0 0</origin>
          <pos>1 1</pos>
-         <fontPath>${fontBold}</fontPath>
-         <color>ffffff</color>
          <alignment>left</alignment>
-         <forceUppercase>true</forceUppercase>
          <format>%Y-%m-%d</format>
       </datetime>
       <rating name="md_rating">
-         <origin>0 0.5</origin>
-         <pos>1 1</pos>
-         <color>ffffff</color>
-         <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
-         <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
-      </rating>
-      <image name="md_releasedate_icon,md_players_icon,md_developer_icon,md_publisher_icon,md_genre_icon,md_lastplayed_icon,md_playcount_icon,md_gametime_icon" extra="true">
-         <origin>0 0.5</origin>
-         <pos>1 1</pos>
-         <color>ffffff</color>
-      </image>
-      <image name="md_releasedate_icon">
-         <path>./_inc/images/icon-releasedate.svg</path>
-      </image>
-      <image name="md_players_icon">
-         <path>./_inc/images/icon-players.svg</path>
-      </image>
-      <image name="md_playcount_icon">
-         <path>./_inc/images/icon-playcount.svg</path>
-      </image>
-      <image name="md_gametime_icon">
-         <path>./_inc/images/icon-gametime.svg</path>
-      </image>
-      <image name="md_lastplayed_icon">
-         <path>./_inc/images/icon-lastplayed.svg</path>
-      </image>
-      <image name="md_genre_icon">
-         <path>./_inc/images/icon-genre.svg</path>
-      </image>
-      <image name="md_developer_icon">
-         <path>./_inc/images/icon-developer.svg</path>
-      </image>
-      <image name="md_publisher_icon">
-         <path>./_inc/images/icon-publisher.svg</path>
-      </image>
-      <text name="md_description">
          <origin>0 0</origin>
-         <fontPath>${fontRegular}</fontPath>
-         <color>ffffff</color>
-         <forceUppercase>false</forceUppercase>
-         <fontPath>${fontRegular}</fontPath>
-      </text>
+         <pos>1 1</pos>
+      </rating>
    </view>
-
    <view name="detailed">
       <image name="md_image">
          <origin>0.5 0.5</origin>
-         <zIndex>3</zIndex>
+         <default>./_inc/systems/images/_default.png</default>
+         <snapshotSource>image</snapshotSource>
+         <roundCorners>0.01</roundCorners>
       </image>
    </view>
-
    <view name="video">
       <video name="md_video">
          <origin>0.5 0.5</origin>
-         <delay>2</delay>
+         <snapshotSource>image</snapshotSource>
+         <defaultSnapshot>./_inc/systems/images/_default.png</defaultSnapshot>
+         <roundCorners>0.01</roundCorners>
          <effect>none</effect>
-         <showSnapshotDelay>true</showSnapshotDelay>
+         <delay>2</delay>
+         <loops>1</loops>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <zIndex>3</zIndex>
+         <showSnapshotDelay>true</showSnapshotDelay>
       </video>
    </view>
 
+   <!-- Gamelist: Metadata On -->
+   <view ifSubset="gamelist-view-style:metadata-on" name="detailed,video">
+      <text name="md_description">
+         <fontPath>${fontLight}</fontPath>
+         <color>${gameDescription}</color>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate,md_lbl_players,md_lbl_genre,md_lbl_developer,md_lbl_publisher,md_lbl_lastplayed,md_lbl_gametime">
+         <alignment>center</alignment>
+         <verticalAlignment>middle</verticalAlignment>
+         <fontPath>${fontRegular}</fontPath>
+         <color>${gameMetadataLabel}</color>
+      </text>
+      <text name="md_players,md_genre,md_developer,md_publisher,md_gametime">
+         <alignment>center</alignment>
+         <verticalAlignment>middle</verticalAlignment>
+         <fontPath>${fontSemiBold}</fontPath>
+         <color>${gameMetadata}</color>
+      </text>
+      <datetime name="md_releasedate,md_lastplayed">
+         <alignment>center</alignment>
+         <verticalAlignment>middle</verticalAlignment>
+         <fontPath>${fontSemiBold}</fontPath>
+         <color>${gameMetadata}</color>
+      </datetime>
+      <text name="md_lbl_rating">
+         <text>Rating</text>
+      </text>
+      <rating name="md_rating">
+         <origin>0.5 0</origin>
+         <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
+         <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
+         <color>${gameMetadata}</color>
+      </rating>
+      <text name="md_lbl_releasedate">
+         <text>Released</text>
+      </text>
+      <datetime name="md_releasedate">
+         <!-- Values set in Aspect Ratio files -->
+      </datetime>
+      <text name="md_lbl_players">
+         <text>Players</text>
+      </text>
+      <text name="md_players">
+         <!-- Values set in Aspect Ratio files -->
+      </text>
+      <text name="md_lbl_genre">
+         <text>Genre</text>
+      </text>
+      <text name="md_genre">
+         <!-- Values set in Aspect Ratio files -->
+      </text>
+      <text name="md_lbl_developer">
+         <text>Developer</text>
+      </text>
+      <text name="md_developer">
+         <!-- Values set in Aspect Ratio files -->
+      </text>
+      <text name="md_lbl_publisher">
+         <text>Publisher</text>
+      </text>
+      <text name="md_publisher">
+         <!-- Values set in Aspect Ratio files -->
+      </text>
+      <text name="md_lbl_lastplayed">
+         <text>Last Played</text>
+      </text>
+      <datetime name="md_lastplayed">
+         <!-- Values set in Aspect Ratio files -->
+      </datetime>
+      <text name="md_lbl_gametime">
+         <text>Times Played</text>
+      </text>
+      <text name="md_gametime">
+         <!-- Values set in Aspect Ratio files -->
+      </text>
+      <image name="game-metadata-background">
+         <path>${gameMetadataBackground}</path>
+      </image>
+   </view>
+
+   <!-- Menu -->
    <view name="menu">
       <menuText name="menutitle">
          <fontPath>${menuFontBold}</fontPath>
@@ -313,7 +346,7 @@ license:       creative commons CC-BY-NC-SA
    </view>
 
    <!-- Customizations -->
-   <!-- System View Video -->
+   <!-- System View: Video -->
    <include>${themeCustomizationsPath}system-view-video/system-view-video.xml</include>
    <view name="system">
       <video ifSubset="background-color:colorful,system-view-video:on" name="systemVideo" extra="true">
