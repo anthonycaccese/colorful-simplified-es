@@ -11,6 +11,18 @@
    </view>
 
    <view name="system,basic,detailed,video">
+      <text name="systemLabel" extra="true">
+         <visible>false</visible>
+      </text>
+      <image name="helpSeperator" extra="true">
+         <origin>0.5 0</origin>
+         <pos>0.5 0.88</pos>
+         <size>0.9 0.001388888888889</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <zIndex>3</zIndex>
+         <color>ffffff33</color>
+      </image>
       <helpsystem name="help">
          <origin>0.5 1</origin>
          <pos>0.5 0.95</pos>
@@ -19,17 +31,15 @@
    </view>
 
    <view name="system">
-      <text name="systemLabel" extra="true">
-         <visible>false</visible>
-      </text>
       <text name="systemDescription" extra="true">
          <visible>false</visible>
       </text>
       <carousel name="systemcarousel">
+         <type>horizontal</type>
          <origin>0.5 0</origin>
          <pos>0.5 0</pos>
-         <size>0.694444444444444 0.694444444444444</size>
-         <logoSize>0.694444444444444 0.694444444444444</logoSize>
+         <size>1 0.694444444444444</size>
+         <logoSize>1 0.694444444444444</logoSize>
       </carousel>
       <text name="systemName" extra="true">
          <origin>0.5 0</origin>
@@ -47,15 +57,34 @@
          <lineSpacing>1</lineSpacing>
          <alignment>center</alignment>
       </text>
-      <image name="systemSeperator" extra="true">
-         <origin>0.5 0</origin>
-         <pos>0.5 0.88</pos>
-         <size>0.9 0.001388888888889</size>
-         <path>${spacerImage}</path>
-         <tile>true</tile>
-         <zIndex>3</zIndex>
-         <color>ffffff33</color>
+   </view>
+
+   <view name="basic,detailed,video">
+      <text name="systemName" extra="true">
+         <pos>0.038888888888889 0.033333333333333</pos><!-- 28 24 -->
+         <size>0.6 0</size>
+         <fontSize>0.047222222222222</fontSize><!-- 34 -->
+      </text>
+      <textlist name="gamelist">
+         <pos>0.05625 0.277777777777778</pos><!-- 108 300 -->
+         <size>0.291666666666667 0.555555555555556</size><!-- 560 600 -->
+         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+         <horizontalMargin>0.009</horizontalMargin>
+      </textlist>
+   </view>
+
+   <view name="detailed">
+      <image name="md_image">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
       </image>
+   </view>
+
+   <view name="video">
+      <video name="md_video">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </video>
    </view>
 
    <!-- Customizations -->

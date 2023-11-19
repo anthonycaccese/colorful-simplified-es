@@ -116,7 +116,6 @@ license:       creative commons CC-BY-NC-SA
          <path>./_inc/systems/images/${system.theme}.webp</path>
       </image>
       <carousel name="systemcarousel">
-         <type>vertical</type>
          <logoScale>1</logoScale>
          <logoSize>1 1</logoSize>
          <maxLogoCount>1</maxLogoCount>
