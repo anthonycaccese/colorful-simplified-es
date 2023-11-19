@@ -3,13 +3,15 @@
 
    <include>./help-system.xml</include>
 
+   <!-- Screen -->
    <view name="screen">
       <batteryIndicator name="batteryIndicator">
-         <pos>0 0.03125</pos><!-- 0 15 -->
-         <size>0.978125 0.05</size><!-- 626 32 -->
+         <pos>0 0.030555555555556</pos><!-- 0 22 -->
+         <size>0.972222222222222 0.05</size><!-- 700 36 -->
       </batteryIndicator>
    </view>
 
+   <!-- All Views -->
    <view name="system,basic,detailed,video">
       <text name="systemLabel" extra="true">
          <visible>false</visible>
@@ -30,6 +32,7 @@
       </helpsystem>
    </view>
 
+   <!-- System View -->
    <view name="system">
       <text name="systemDescription" extra="true">
          <visible>false</visible>
@@ -59,33 +62,51 @@
       </text>
    </view>
 
+   <!-- Gamelist View: All -->
    <view name="basic,detailed,video">
       <text name="systemName" extra="true">
-         <pos>0.038888888888889 0.033333333333333</pos><!-- 28 24 -->
-         <size>0.6 0</size>
+         <pos>0.05 0.038888888888889</pos><!-- 36 28 -->
+         <size>0.6 0</size><!-- 432 - -->
          <fontSize>0.047222222222222</fontSize><!-- 34 -->
       </text>
       <textlist name="gamelist">
-         <pos>0.05625 0.277777777777778</pos><!-- 108 300 -->
-         <size>0.291666666666667 0.555555555555556</size><!-- 560 600 -->
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
-         <horizontalMargin>0.009</horizontalMargin>
+         <pos>0 0.17</pos><!-- 0 300 -->
+         <size>0.6 0.666666666666667</size><!-- 432 480 -->
+         <fontSize>0.041666666666667</fontSize><!-- 30 -->
+         <horizontalMargin>0.05</horizontalMargin><!-- 36 -->
       </textlist>
    </view>
 
-   <view name="detailed">
-      <image name="md_image">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
+
+
+
+   <view name="basic">
+      <image name="system-artwork" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.773611111111111 0.501388888888889</pos><!-- 557 361 -->
+         <maxSize>0.347222222222222 0.663888888888889</maxSize><!-- 250 478 -->
       </image>
    </view>
 
+
+
+
+   <view name="detailed">
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.773611111111111 0.501388888888889</pos><!-- 557 361 -->
+         <minSize>0.347222222222222 0.663888888888889</minSize><!-- 250 478 -->
+      </image>
+   </view>
    <view name="video">
       <video name="md_video">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
+         <origin>0.5 0.5</origin>
+         <pos>0.773611111111111 0.501388888888889</pos><!-- 557 361 -->
+         <minSize>0.347222222222222 0.663888888888889</minSize><!-- 250 478 -->
       </video>
    </view>
+
+
 
    <!-- Customizations -->
    <!-- System View Video -->
