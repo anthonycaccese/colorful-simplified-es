@@ -20,5 +20,14 @@
          <iconX>./_inc/images/help-button-north.svg</iconX>
          <iconY>./_inc/images/help-button-west.svg</iconY>
       </helpsystem>
+      <image name="helpBackground" extra="true">
+         <origin>0 1</origin>
+         <pos>0 1</pos>
+         <size>1 0.1</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>${helpBackgroundColor}</color>
+         <zIndex>50</zIndex>
+      </image>
    </view>
 </theme>

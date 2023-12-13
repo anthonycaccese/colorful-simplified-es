@@ -8,12 +8,6 @@ license:       creative commons CC-BY-NC-SA
 <theme defaultTransition="slide">
    <formatVersion>7</formatVersion>
 
-   <!-- System Metadata -->
-   <include>./_inc/systems/metadata-global/_default.xml</include>
-   <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
-   <include>./_inc/systems/metadata-custom/_default.xml</include>
-   <include>./_inc/systems/metadata-custom/${system.theme}.xml</include>
-
    <!-- Distribution -->
    <subset name="distribution" displayName="Distribution">
       <include name="batocera" displayName="Batocera" />
@@ -37,13 +31,15 @@ license:       creative commons CC-BY-NC-SA
       <themeCustomizationsPath>${distributionPath}theme-customizations/colorful-simplified/</themeCustomizationsPath>
    </variables>
 
+   <!-- System Metadata -->
+   <include>./_inc/systems/metadata-global/_default.xml</include>
+   <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+   <include>./_inc/systems/metadata-custom/_default.xml</include>
+   <include>./_inc/systems/metadata-custom/${system.theme}.xml</include>
+
    <!-- Aspect Ratio -->
    <subset name="aspect-ratio" displayName="Aspect Ratio">
       <include name="16-9" displayName="16:9" />
-      <!--<include name="16-10" displayName="16:10" />
-      <include name="4-3" displayName="4:3" />
-      <include name="3-2" displayName="3:2" />
-      <include name="5-3" displayName="5:3" />-->
       <include name="1-1" displayName="1:1" />
    </subset>
 
@@ -149,7 +145,7 @@ license:       creative commons CC-BY-NC-SA
       <textlist name="gamelist">
          <origin>0 0</origin>
          <alignment>left</alignment>
-         <fontPath>${fontRegular}</fontPath>
+         <fontPath>${fontSemiBold}</fontPath>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <primaryColor>${gamelistPrimaryColor}</primaryColor>
          <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
@@ -307,7 +303,7 @@ license:       creative commons CC-BY-NC-SA
       </menuText>
       <menuTextSmall name="menutextsmall">
          <fontPath>${menuFontBold}</fontPath>
-         <fontSize>0.0325</fontSize>
+         <fontSize>0.025</fontSize>
          <color>ffffff77</color>
       </menuTextSmall>
       <menuGroup name="menugroup">
@@ -318,10 +314,6 @@ license:       creative commons CC-BY-NC-SA
          <backgroundColor>00000000</backgroundColor>
          <lineSpacing>2.5</lineSpacing>
       </menuGroup>
-      <menuTextEdit name="menutextedit">
-         <inactive>./_inc/images/menu-textinput.png</inactive>
-         <active>./_inc/images/menu-textinput-active.png</active>
-      </menuTextEdit>
       <menuBackground name="menubg">
          <color>111111</color>
          <cornerSize>20 20</cornerSize>
@@ -343,6 +335,10 @@ license:       creative commons CC-BY-NC-SA
          <iconShutdown>./_inc/images/menu-icon-shutdown.svg</iconShutdown>
          <iconFastShutdown>./_inc/images/menu-icon-shutdown.svg</iconFastShutdown>
       </menuIcons>
+      <menuTextEdit name="menutextedit">
+         <inactive>./_inc/images/menu-textinput.png</inactive>
+         <active>./_inc/images/menu-textinput-active.png</active>
+      </menuTextEdit>
    </view>
 
    <!-- Customizations -->
@@ -361,10 +357,6 @@ license:       creative commons CC-BY-NC-SA
 
    <!-- Aspect Ratio -->
    <include ifSubset="aspect-ratio:16-9">./aspect-ratio-16-9.xml</include>
-   <!--<include ifSubset="aspect-ratio:16-10">./aspect-ratio-16-10.xml</include>
-   <include ifSubset="aspect-ratio:4-3">./aspect-ratio-4-3.xml</include>
-   <include ifSubset="aspect-ratio:3-2">./aspect-ratio-3-2.xml</include>
-   <include ifSubset="aspect-ratio:5-3">./aspect-ratio-5-3.xml</include> -->
    <include ifSubset="aspect-ratio:1-1">./aspect-ratio-1-1.xml</include>
 
 </theme>
