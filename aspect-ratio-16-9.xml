@@ -15,7 +15,7 @@
    <view name="system,basic,detailed,video">
       <text name="systemLabel" extra="true">
          <pos>0.064583333333333 0.111111111111111</pos><!-- 124 120 -->
-         <size>0.291666666666667 0.025925925925926</size><!-- 560 -->
+         <size>0.395833333333333 0.025925925925926</size><!-- 760 -->
          <fontSize>0.031481481481481</fontSize><!-- 34 -->
          <lineSpacing>1</lineSpacing>
       </text>
@@ -50,7 +50,7 @@
       </text>
       <text name="systemInfo">
          <pos>0.064583333333333 0.78</pos>
-         <size>0.291666666666667 0</size><!-- 560 - -->
+         <size>0.34375 0</size><!-- 660 - -->
          <fontSize>0.038888888888889</fontSize><!-- 42 -->
          <lineSpacing>1</lineSpacing>
       </text>
