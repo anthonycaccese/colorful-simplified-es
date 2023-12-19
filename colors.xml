@@ -2,8 +2,8 @@
    <variables ifSubset="background-color:colorful">
       <batteryIndicatorColor>ffffff99</batteryIndicatorColor>
       <systemBackgroundColor>${systemColor}</systemBackgroundColor>
-      <helpIconColor>ffffff99</helpIconColor>
-      <helpTextColor>ffffff88</helpTextColor>
+      <helpIconColor>ffffffbb</helpIconColor>
+      <helpTextColor>ffffffcc</helpTextColor>
       <helpBackgroundColor>00000011</helpBackgroundColor>
       <systemLabelColor>ffffffaa</systemLabelColor>
       <systemNameColor>ffffff</systemNameColor>
@@ -21,8 +21,8 @@
    <variables ifSubset="background-color:light">
       <batteryIndicatorColor>00000099</batteryIndicatorColor>
       <systemBackgroundColor>dddddd</systemBackgroundColor>
-      <helpIconColor>00000099</helpIconColor>
-      <helpTextColor>00000088</helpTextColor>
+      <helpIconColor>777777</helpIconColor>
+      <helpTextColor>777777</helpTextColor>
       <helpBackgroundColor>ffffff66</helpBackgroundColor>
       <systemLabelColor>999999</systemLabelColor>
       <systemNameColor>000000</systemNameColor>
@@ -40,8 +40,8 @@
    <variables ifSubset="background-color:dark">
       <batteryIndicatorColor>ffffff99</batteryIndicatorColor>
       <systemBackgroundColor>111111</systemBackgroundColor>
-      <helpIconColor>ffffffaa</helpIconColor>
-      <helpTextColor>ffffffbb</helpTextColor>
+      <helpIconColor>ffffffbb</helpIconColor>
+      <helpTextColor>ffffffcc</helpTextColor>
       <helpBackgroundColor>222222</helpBackgroundColor>
       <systemLabelColor>ffffffaa</systemLabelColor>
       <systemNameColor>ffffff</systemNameColor>
