@@ -8,6 +8,7 @@
       <helpsystem name="help">
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
+         <fontPath>${fontHelpSystem}</fontPath>
          <iconUpDown>./_inc/images/help-dpad-updown.svg</iconUpDown>
          <iconLeftRight>./_inc/images/help-dpad-leftright.svg</iconLeftRight>
          <iconUpDownLeftRight>./_inc/images/help-dpad-updownleftright.svg</iconUpDownLeftRight>

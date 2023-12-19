@@ -22,6 +22,7 @@ license:       creative commons CC-BY-NC-SA
       <fontRegular>./_inc/fonts/Gilroy-Regular.ttf</fontRegular>
       <fontSemiBold>./_inc/fonts/Gilroy-SemiBold.ttf</fontSemiBold>
       <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
+      <fontHelpSystem>./_inc/fonts/Akrobat-Bold.ttf</fontHelpSystem>
       <menuFontBold>./_inc/fonts/Oxygen-Bold.ttf</menuFontBold>
       <menuFontLight>./_inc/fonts/Oxygen-Light.ttf</menuFontLight>
       <menuFontRegular>./_inc/fonts/Oxygen-Regular.ttf</menuFontRegular>
