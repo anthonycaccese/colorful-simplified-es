@@ -344,13 +344,13 @@ license:       creative commons CC-BY-NC-SA
 
    <!-- Customizations -->
    <!-- System View: Video -->
-   <include>${themeCustomizationsPath}system-view-video/system-view-video.xml</include>
+   <include>${themeCustomizationsPath}system-view-video.xml</include>
    <view name="system">
       <video ifSubset="background-color:colorful,system-view-video:on" name="systemVideo" extra="true">
          <effect>none</effect>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
-         <path>${themeCustomizationsPath}system-view-video/videos/${system.theme}.mp4</path>
+         <path>${themeCustomizationsPath}videos/${system.theme}.mp4</path>
          <delay>1</delay>
          <zIndex>2</zIndex>
       </video>
