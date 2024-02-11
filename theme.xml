@@ -231,7 +231,8 @@ license:       creative commons CC-BY-NC-SA
       <text name="
          md_lbl_rating,
          md_lbl_releasedate,
-         md_lbl_players,         md_lbl_genre,
+         md_lbl_players,
+         md_lbl_genre,
          md_lbl_developer,
          md_lbl_publisher,
          md_lbl_lastplayed,
@@ -325,7 +326,8 @@ license:       creative commons CC-BY-NC-SA
       <text name="
          md_lbl_rating,
          md_lbl_releasedate,
-         md_lbl_players,         md_lbl_genre,
+         md_lbl_players,
+         md_lbl_genre,
          md_lbl_developer,
          md_lbl_publisher,
          md_lbl_lastplayed,

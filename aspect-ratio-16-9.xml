@@ -46,7 +46,7 @@ based on 1920x1080
    ///
    -->
    <view name="system">
-      <text name="system-label" extra="true
+      <text name="system-label" extra="true">
          <pos>0.057291666666667 0.097222222222222</pos><!-- 110 105 -->
          <size>0.395833333333333 0.025925925925926</size><!-- 760 -->
          <fontSize>0.031481481481481</fontSize><!-- 34 -->
