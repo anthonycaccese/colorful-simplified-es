@@ -1,9 +1,38 @@
+<!--
+16:9 resolution: 
+based on 1920x1080
+-->
 <theme>
    <formatVersion>7</formatVersion>
 
+   <!--
+   ///
+   Include: Help System
+   ///
+   -->
    <include>./help-system.xml</include>
+   <view name="system,gamelist">
+      <helpsystem name="help">
+         <pos>0.5 0.95</pos><!-- 50% 1026 -->
+         <fontSize>${helpSystemFontSize}</fontSize>
+         <entrySpacing>0.020833333333333</entrySpacing><!-- 40 -->
+      </helpsystem>
+      <image name="helpBackground" extra="true">
+         <size>1 0.1</size>
+      </image>
+   </view>
+   <variables ifSubset="font-size:medium">
+      <helpSystemFontSize>0.033333333333333</helpSystemFontSize><!-- 36 -->
+   </variables>
+   <variables ifSubset="font-size:large">
+      <helpSystemFontSize>0.040740740740741</helpSystemFontSize><!-- 44 -->
+   </variables>
 
-   <!-- Screen -->
+   <!--
+   ///
+   Screen View
+   ///
+   -->
    <view name="screen">
       <batteryIndicator name="batteryIndicator">
          <pos>0 0.022222222222222</pos><!-- 0 24 -->
@@ -11,177 +40,217 @@
       </batteryIndicator>
    </view>
 
-   <!-- All Views -->
-   <view name="system,basic,detailed,video">
-      <text name="systemLabel" extra="true">
-         <pos>0.064583333333333 0.111111111111111</pos><!-- 124 120 -->
+   <!--
+   ///
+   System View
+   ///
+   -->
+   <view name="system">
+      <text name="system-label" extra="true
+         <pos>0.057291666666667 0.097222222222222</pos><!-- 110 105 -->
          <size>0.395833333333333 0.025925925925926</size><!-- 760 -->
          <fontSize>0.031481481481481</fontSize><!-- 34 -->
-         <lineSpacing>1</lineSpacing>
       </text>
-      <text name="systemName" extra="true">
-         <pos>0.064583333333333 0.153703703703704</pos><!-- 124 166 -->
+      <text name="system-name" extra="true">
+         <pos>0.057291666666667 0.139814814814815</pos><!-- 110 151 -->
          <size>0.291666666666667 0.2</size><!-- 560 -->
-         <lineSpacing>1</lineSpacing>
+         <fontSize>${systemSystemNameFontSize}</fontSize>
       </text>
-      <helpsystem name="help">
-         <origin>0.5 1</origin>
-         <pos>0.5 0.965</pos>
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
-      </helpsystem>
-   </view>
-
-   <!-- System View -->
-   <view name="system">
-      <carousel name="systemcarousel">
-         <type>vertical</type>
-         <origin>0.5 0.5</origin>
-         <pos>0.6875 0.5</pos><!-- 1320 -->
-         <size>0.65 1</size>
-      </carousel>
-      <text name="systemName" extra="true">
-         <fontSize>0.062962962962963</fontSize><!-- 68 -->
-      </text>
-      <text name="systemDescription" extra="true">
-         <pos>0.064583333333333 0.54</pos>
-         <size>0.291666666666667 0.174074074074074</size><!-- 560 188 -->
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+      <text name="system-description" extra="true">
+         <pos>0.057291666666667 0.509259259259259</pos><!-- 110 550 -->
+         <size>0.291666666666667 0.203703703703704</size><!-- 560 220 -->
+         <fontSize>0.038888888888889</fontSize><!-- 42 -->
          <lineSpacing>1.25</lineSpacing>
       </text>
       <text name="systemInfo">
-         <pos>0.064583333333333 0.78</pos>
+         <pos>0.057291666666667 0.768518518518519</pos><!-- 110 830 -->
          <size>0.34375 0</size><!-- 660 - -->
          <fontSize>0.038888888888889</fontSize><!-- 42 -->
          <lineSpacing>1</lineSpacing>
       </text>
+      <carousel name="systemcarousel">
+         <pos>0.6875 0.459259259259259</pos><!-- 1320 496 -->
+         <size>0.65 1</size>
+      </carousel>
    </view>
+   <variables ifSubset="font-size:medium">
+      <systemSystemNameFontSize>0.055555555555556</systemSystemNameFontSize><!-- 60 -->
+   </variables>
+   <variables ifSubset="font-size:large">
+      <systemSystemNameFontSize>0.062962962962963</systemSystemNameFontSize><!-- 68 -->
+   </variables>
 
-   <!-- Gamelist View: All -->
+   <!--
+   ///
+   Gamelist View - List Variants
+   ///
+   -->
    <view name="basic,detailed,video">
-      <text name="systemName" extra="true">
-         <fontSize>0.038888888888889</fontSize><!-- 42 -->
+      <text name="system-name" extra="true">
+         <pos>0.057291666666667 0.097222222222222</pos><!-- 110 105 -->
+         <size>0.291666666666667 0.2</size><!-- 560 -->
+         <fontSize>${gamelistSystemNameFontSize}</fontSize>
       </text>
       <textlist name="gamelist">
-         <pos>0.05625 0.277777777777778</pos><!-- 108 300 -->
-         <size>0.291666666666667 0.555555555555556</size><!-- 560 600 -->
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+         <pos>${gamelistPos}</pos>
+         <size>${gamelistSize}</size>
+         <fontSize>${gamelistFontSize}</fontSize>
+         <lineSpacing>${gamelistLineSpacing}</lineSpacing>
          <horizontalMargin>0.009</horizontalMargin>
       </textlist>
    </view>
+   <variables ifSubset="font-size:medium">
+      <gamelistSystemNameFontSize>0.040740740740741</gamelistSystemNameFontSize><!-- 44 -->
+      <gamelistPos>0.046875 0.212962962962963</gamelistPos><!-- 90 230 -->
+      <gamelistSize>0.3125 0.601851851851852</gamelistSize><!-- 600 650 -->
+      <gamelistFontSize>0.033333333333333</gamelistFontSize><!-- 36 -->
+      <gamelistLineSpacing>1.5</gamelistLineSpacing>
+   </variables>
+   <variables ifSubset="font-size:large">
+      <gamelistSystemNameFontSize>0.048148148148148</gamelistSystemNameFontSize><!-- 52 -->
+      <gamelistPos>0.046875 0.240740740740741</gamelistPos><!-- 90 260 -->
+      <gamelistSize>0.3125 0.574074074074074</gamelistSize><!-- 600 620 -->
+      <gamelistFontSize>0.042592592592593</gamelistFontSize><!-- 46 -->
+      <gamelistLineSpacing>1.5</gamelistLineSpacing>
+   </variables>
 
-   <!-- Gamelist View: Basic & Metadata Off -->
+   <!--
+   ///
+   Gamelist View - List: Basic
+   ///
+   -->
    <view name="basic">
-      <image name="system-artwork" extra="true">
-         <pos>0.6875 0.5</pos><!-- 1320 -->
+      <image name="system-art" extra="true">
          <size>0 1</size>
+         <pos>0.6875 0.459259259259259</pos><!-- 1320 496 -->
       </image>
    </view>
+
+   <!--
+   ///
+   Gamelist View - List: Metadata Off
+   ///
+   -->
    <view name="detailed">
       <image name="md_image">
-         <pos>0.671875 0.467592592592593</pos><!-- 1290 505 -->
-         <minSize>0.541666666666667 0.722222222222222</minSize><!-- 1040 780 -->
+         <pos>0.682291666666667 0.453703703703704</pos><!-- 1310 505 -->
+         <maxSize>0.541666666666667 0.722222222222222</maxSize><!-- 1040 780 -->
       </image>
    </view>
    <view name="video">
       <video name="md_video">
-         <pos>0.671875 0.467592592592593</pos><!-- 1290 505 -->
-         <minSize>0.541666666666667 0.722222222222222</minSize><!-- 1040 780 -->
+         <pos>0.682291666666667 0.453703703703704</pos><!-- 1310 505 -->
+         <maxSize>0.541666666666667 0.722222222222222</maxSize><!-- 1040 780 -->
       </video>
    </view>
 
-   <!-- Gamelist View: Metadata On -->
+   <!--
+   ///
+   Gamelist View - List: Metadata Off
+   ///
+   -->
    <view ifSubset="gamelist-view-style:metadata-on" name="detailed,video">
       <text name="md_description">
-         <pos>0.4375 0.574074074074074</pos><!-- 840 620 -->
-         <size>0.328125 0.25</size><!-- 630 270 -->
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
-         <lineSpacing>1.5</lineSpacing>
+         <pos>0.427083333333333 0.583333333333333</pos><!-- 820 630 -->
+         <size>0.322916666666667 0.231481481481481</size><!-- 620 250 -->
+         <fontSize>${gamelistDescriptionFontSize}</fontSize>
+         <lineSpacing>${gamelistDescriptionLineSpacing}</lineSpacing>
       </text>
       <text name="md_lbl_rating,md_lbl_releasedate,md_lbl_players,md_lbl_genre,md_lbl_developer,md_lbl_publisher,md_lbl_lastplayed,md_lbl_gametime">
-         <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
-         <fontSize>0.024074074074074</fontSize><!-- 26 -->
+         <size>0.122916666666667 0.037037037037037</size><!-- 236 40 -->
+         <fontSize>${gamelistMetadataFontSize}</fontSize>
       </text>
       <text name="md_players,md_genre,md_developer,md_publisher,md_gametime">
-         <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
-         <fontSize>0.024074074074074</fontSize><!-- 26 -->
+         <size>0.122916666666667 0.037037037037037</size><!-- 236 40 -->
+         <fontSize>${gamelistMetadataFontSize}</fontSize>
       </text>
       <datetime name="md_releasedate,md_lastplayed">
-         <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
-         <fontSize>0.024074074074074</fontSize><!-- 26 -->
+         <size>0.122916666666667 0.037037037037037</size><!-- 236 40 -->
+         <fontSize>${gamelistMetadataFontSize}</fontSize>
       </datetime>
       <text name="md_lbl_rating">
-         <pos>0.808333333333333 0.118518518518519</pos><!-- 1552 128 --> 
+         <pos>0.808333333333333 0.09537037037037</pos><!-- 1552 103 -->
       </text>
       <rating name="md_rating">
-         <pos>0.865885416666667 0.155555555555556</pos><!-- 1662.5 px 168 -->
-         <size>0 0.031481481481481</size><!-- 221 34 -->
+         <pos>0.869791666666667 0.132407407407407</pos><!-- 1670 143 -->
+         <size>0.122916666666667 0.027777777777778</size><!-- 236 30 -->
       </rating>
       <text name="md_lbl_releasedate">
-         <pos>0.808333333333333 0.208333333333333</pos><!-- 1552 225 --> 
+         <pos>0.808333333333333 0.185185185185185</pos><!-- 1552 200 -->
       </text>
       <datetime name="md_releasedate">
-         <pos>0.808333333333333 0.24537037037037</pos><!-- 1552 265 --> 
+         <pos>0.808333333333333 0.222222222222222</pos><!-- 1552 240 -->
       </datetime>
       <text name="md_lbl_players">
-         <pos>0.808333333333333 0.298148148148148</pos><!-- 1552 322 --> 
+         <pos>0.808333333333333 0.275</pos><!-- 1552 297 -->
       </text>
       <text name="md_players">
-         <pos>0.808333333333333 0.335185185185185</pos><!-- 1552 362 -->
+         <pos>0.808333333333333 0.312037037037037</pos><!-- 1552 337 -->
       </text>
       <text name="md_lbl_genre">
-         <pos>0.808333333333333 0.387962962962963</pos><!-- 1552 419 --> 
+          <pos>0.808333333333333 0.364814814814815</pos><!-- 1552 394 -->
       </text>
       <text name="md_genre">
-         <pos>0.808333333333333 0.425</pos><!-- 1552 459 -->
+         <pos>0.808333333333333 0.401851851851852</pos><!-- 1552 434 -->
       </text>
       <text name="md_lbl_developer">
-         <pos>0.808333333333333 0.477777777777778</pos><!-- 1552 516 --> 
+         <pos>0.808333333333333 0.45462962962963</pos><!-- 1552 491 -->
       </text>
       <text name="md_developer">
-         <pos>0.808333333333333 0.514814814814815</pos><!-- 1552 556 -->
+         <pos>0.808333333333333 0.491666666666667</pos><!-- 1552 531 -->
       </text>
       <text name="md_lbl_publisher">
-         <pos>0.808333333333333 0.567592592592593</pos><!-- 1552 613 --> 
+         <pos>0.808333333333333 0.544444444444444</pos><!-- 1552 588 --> 
       </text>
       <text name="md_publisher">
-         <pos>0.808333333333333 0.60462962962963</pos><!-- 1552 653 -->
+         <pos>0.808333333333333 0.581481481481481</pos><!-- 1552 628 -->
       </text>
       <text name="md_lbl_lastplayed">
-         <pos>0.808333333333333 0.657407407407407</pos><!-- 1552 710 --> 
+         <pos>0.808333333333333 0.634259259259259</pos><!-- 1552 685 -->
       </text>
       <datetime name="md_lastplayed">
-         <pos>0.808333333333333 0.694444444444444</pos><!-- 1552 750 --> 
+         <pos>0.808333333333333 0.671296296296296</pos><!-- 1552 725 --> 
       </datetime>
       <text name="md_lbl_gametime">
-         <pos>0.808333333333333 0.747222222222222</pos><!-- 1552 807 --> 
+         <pos>0.808333333333333 0.724074074074074</pos><!-- 1552 782 -->
       </text>
       <text name="md_gametime">
-         <pos>0.808333333333333 0.784259259259259</pos><!-- 1552 847 -->
+         <pos>0.808333333333333 0.761111111111111</pos><!-- 1552 822 -->
       </text>
       <image name="game-metadata-background" extra="true">
-         <pos>0.796875 0.111111111111111</pos><!-- 1530 120 -->
-         <size>0.135416666666667 0.717592592592593</size><!-- 260 775 -->
+         <pos>0.796875 0.087962962962963</pos><!-- 1530 95 -->
+         <size>0.143229166666667 0.717592592592593</size><!-- 275 775 -->
       </image>
    </view>
    <view ifSubset="gamelist-view-style:metadata-on" name="detailed">
       <image name="md_image">
-         <pos>0.598958333333333 0.333333333333333</pos><!-- 1150 360 -->
-         <minSize>0.333333333333333 0.444444444444444</minSize><!-- 640 480 -->
+         <pos>0.588541666666667 0.310185185185185</pos><!-- 1130 335 -->
+         <maxSize>0.333333333333333 0.444444444444444</maxSize><!-- 640 480 -->
       </image>
    </view>
    <view ifSubset="gamelist-view-style:metadata-on" name="video">
       <video name="md_video">
-         <pos>0.598958333333333 0.333333333333333</pos><!-- 1150 360 -->
-         <minSize>0.333333333333333 0.444444444444444</minSize><!-- 640 480 -->
+         <pos>0.588541666666667 0.310185185185185</pos><!-- 1130 335 -->
+         <maxSize>0.333333333333333 0.444444444444444</maxSize><!-- 640 480 -->
       </video>
    </view>
+   <variables ifSubset="font-size:medium">
+      <gamelistDescriptionFontSize>0.033333333333333</gamelistDescriptionFontSize><!-- 36 -->
+      <gamelistDescriptionLineSpacing>1.3</gamelistDescriptionLineSpacing>
+      <gamelistMetadataFontSize>0.024074074074074</gamelistMetadataFontSize><!-- 26 -->
+   </variables>
+   <variables ifSubset="font-size:large">
+      <gamelistDescriptionFontSize>0.042592592592593</gamelistDescriptionFontSize><!-- 46 -->
+      <gamelistDescriptionLineSpacing>1.3</gamelistDescriptionLineSpacing>
+      <gamelistMetadataFontSize>0.02962962962963</gamelistMetadataFontSize><!-- 26 -->
+   </variables>
 
    <!-- Customizations -->
    <!-- System View: Video -->
    <view name="system">
-      <video ifSubset="background-color:colorful,system-view-video:on" name="systemVideo" extra="true">
+      <video ifSubset="color-scheme:colorful,system-view-video:on" name="systemVideo" extra="true">
          <origin>0.5 0.5</origin>
-         <pos>0.6875 0.5</pos><!-- 1320 -->
+         <pos>0.6875 0.459259259259259</pos><!-- 1320 496 -->
          <size>1 1</size>
       </video>
    </view>

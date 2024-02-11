@@ -1,10 +1,9 @@
 <theme>
-   <variables ifSubset="background-color:colorful">
-      <batteryIndicatorColor>ffffff99</batteryIndicatorColor>
+   <variables ifSubset="color-scheme:colorful">
       <systemBackgroundColor>${systemColor}</systemBackgroundColor>
       <helpIconColor>ffffffbb</helpIconColor>
       <helpTextColor>ffffffcc</helpTextColor>
-      <helpBackgroundColor>00000011</helpBackgroundColor>
+      <helpBackgroundColor>00000022</helpBackgroundColor>
       <systemLabelColor>ffffffaa</systemLabelColor>
       <systemNameColor>ffffff</systemNameColor>
       <systemDescriptionColor>ffffff</systemDescriptionColor>
@@ -17,14 +16,14 @@
       <gameMetadataLabel>ffffffaa</gameMetadataLabel>
       <gameMetadata>ffffff</gameMetadata>
       <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
+      <batteryIndicatorColor>ffffff99</batteryIndicatorColor>
    </variables>
-   <variables ifSubset="background-color:light">
-      <batteryIndicatorColor>00000099</batteryIndicatorColor>
+   <variables ifSubset="color-scheme:light">
       <systemBackgroundColor>dddddd</systemBackgroundColor>
-      <helpIconColor>777777</helpIconColor>
-      <helpTextColor>777777</helpTextColor>
+      <helpIconColor>555555</helpIconColor>
+      <helpTextColor>555555</helpTextColor>
       <helpBackgroundColor>ffffff66</helpBackgroundColor>
-      <systemLabelColor>999999</systemLabelColor>
+      <systemLabelColor>777777</systemLabelColor>
       <systemNameColor>000000</systemNameColor>
       <systemDescriptionColor>000000</systemDescriptionColor>
       <systemGameCountColor>00000099</systemGameCountColor>
@@ -36,13 +35,51 @@
       <gameMetadataLabel>777777</gameMetadataLabel>
       <gameMetadata>333333</gameMetadata>
       <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
+      <batteryIndicatorColor>00000099</batteryIndicatorColor>
    </variables>
-   <variables ifSubset="background-color:dark">
-      <batteryIndicatorColor>ffffff99</batteryIndicatorColor>
+   <variables ifSubset="color-scheme:retro-bright">
+      <systemBackgroundColor>b2b4b2</systemBackgroundColor>
+      <helpIconColor>54585a</helpIconColor>
+      <helpTextColor>54585a</helpTextColor>
+      <helpBackgroundColor>ffffff33</helpBackgroundColor>
+      <systemLabelColor>54585a</systemLabelColor>
+      <systemNameColor>000000</systemNameColor>
+      <systemDescriptionColor>000000</systemDescriptionColor>
+      <systemGameCountColor>000000aa</systemGameCountColor>
+      <gamelistSelectorColor>cacaca</gamelistSelectorColor>
+      <gamelistPrimaryColor>707372</gamelistPrimaryColor>
+      <gamelistSecondaryColor>707372</gamelistSecondaryColor>
+      <gamelistSelectedColor>000000</gamelistSelectedColor>
+      <gameDescription>000000</gameDescription>
+      <gameMetadataLabel>54585a</gameMetadataLabel>
+      <gameMetadata>333333</gameMetadata>
+      <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
+      <batteryIndicatorColor>00000099</batteryIndicatorColor>
+   </variables>
+   <variables ifSubset="color-scheme:dmg">
+      <systemBackgroundColor>959290</systemBackgroundColor>
+      <helpIconColor>4a4948</helpIconColor>
+      <helpTextColor>4a4948</helpTextColor>
+      <helpBackgroundColor>aaa7a6</helpBackgroundColor>
+      <systemLabelColor>4a4948</systemLabelColor>
+      <systemNameColor>1d1d1c</systemNameColor>
+      <systemDescriptionColor>000000</systemDescriptionColor>
+      <systemGameCountColor>1d1d1caa</systemGameCountColor>
+      <gamelistSelectorColor>bfbdbc</gamelistSelectorColor>
+      <gamelistPrimaryColor>1d1d1c66</gamelistPrimaryColor>
+      <gamelistSecondaryColor>1d1d1c66</gamelistSecondaryColor>
+      <gamelistSelectedColor>000000</gamelistSelectedColor>
+      <gameDescription>000000</gameDescription>
+      <gameMetadataLabel>4a4948</gameMetadataLabel>
+      <gameMetadata>333333</gameMetadata>
+      <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
+      <batteryIndicatorColor>00000099</batteryIndicatorColor>
+   </variables>
+   <variables ifSubset="color-scheme:dark">
       <systemBackgroundColor>111111</systemBackgroundColor>
       <helpIconColor>ffffffbb</helpIconColor>
       <helpTextColor>ffffffcc</helpTextColor>
-      <helpBackgroundColor>222222</helpBackgroundColor>
+      <helpBackgroundColor>000000</helpBackgroundColor>
       <systemLabelColor>ffffffaa</systemLabelColor>
       <systemNameColor>ffffff</systemNameColor>
       <systemDescriptionColor>ffffff</systemDescriptionColor>
@@ -55,5 +92,25 @@
       <gameMetadataLabel>ffffffaa</gameMetadataLabel>
       <gameMetadata>ffffff</gameMetadata>
       <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
+      <batteryIndicatorColor>ffffff99</batteryIndicatorColor>
+   </variables>
+   <variables ifSubset="color-scheme:oled">
+      <systemBackgroundColor>000000</systemBackgroundColor>
+      <helpIconColor>ffffffbb</helpIconColor>
+      <helpTextColor>ffffffcc</helpTextColor>
+      <helpBackgroundColor>090909</helpBackgroundColor>
+      <systemLabelColor>ffffffaa</systemLabelColor>
+      <systemNameColor>ffffff</systemNameColor>
+      <systemDescriptionColor>ffffff</systemDescriptionColor>
+      <systemGameCountColor>ffffff99</systemGameCountColor>
+      <gamelistSelectorColor>222222</gamelistSelectorColor>
+      <gamelistPrimaryColor>ffffff55</gamelistPrimaryColor>
+      <gamelistSecondaryColor>ffffff55</gamelistSecondaryColor>
+      <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+      <gameDescription>ffffff</gameDescription>
+      <gameMetadataLabel>ffffffaa</gameMetadataLabel>
+      <gameMetadata>ffffff</gameMetadata>
+      <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
+      <batteryIndicatorColor>ffffff99</batteryIndicatorColor>
    </variables>
 </theme>

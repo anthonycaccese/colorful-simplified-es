@@ -13,7 +13,7 @@
 
    <!-- All Views -->
    <view name="system,basic,detailed,video">
-      <text name="systemLabel" extra="true">
+      <text name="system-label" extra="true">
          <visible>false</visible>
       </text>
       <image name="helpSeperator" extra="true">
@@ -34,7 +34,7 @@
 
    <!-- System View -->
    <view name="system">
-      <text name="systemDescription" extra="true">
+      <text name="system-description" extra="true">
          <visible>false</visible>
       </text>
       <carousel name="systemcarousel">
@@ -44,7 +44,7 @@
          <size>1 0.694444444444444</size>
          <logoSize>1 0.694444444444444</logoSize>
       </carousel>
-      <text name="systemName" extra="true">
+      <text name="system-name" extra="true">
          <origin>0.5 0</origin>
          <pos>0.5 0.65</pos><!-- 144 166 -->
          <size>0.85 0.13</size>
@@ -64,7 +64,7 @@
 
    <!-- Gamelist View: All -->
    <view name="basic,detailed,video">
-      <text name="systemName" extra="true">
+      <text name="system-name" extra="true">
          <pos>0.05 0.038888888888889</pos><!-- 36 28 -->
          <size>0.6 0</size><!-- 432 - -->
          <fontSize>0.047222222222222</fontSize><!-- 34 -->
@@ -81,7 +81,7 @@
 
 
    <view name="basic">
-      <image name="system-artwork" extra="true">
+      <image name="system-art" extra="true">
          <origin>0.5 0.5</origin>
          <pos>0.773611111111111 0.501388888888889</pos><!-- 557 361 -->
          <maxSize>0.347222222222222 0.663888888888889</maxSize><!-- 250 478 -->
@@ -111,7 +111,7 @@
    <!-- Customizations -->
    <!-- System View Video -->
    <view name="system">
-      <video ifSubset="background-color:colorful,system-view-video:on" name="systemVideo" extra="true">
+      <video ifSubset="color-scheme:colorful,system-view-video:on" name="systemVideo" extra="true">
          <origin>0.5 0</origin>
          <pos>0.5 0</pos>
          <maxSize>1.234567901234568 0.694444444444444</maxSize>
