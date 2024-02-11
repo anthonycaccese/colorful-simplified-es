@@ -249,7 +249,7 @@ based on 1920x1080
    <!-- Customizations -->
    <!-- System View: Video -->
    <view name="system">
-      <video ifSubset="color-scheme:colorful,system-view-video:on" name="systemVideo" extra="true">
+      <video ifSubset="color-scheme:colorful,system-view-video:on" name="system-video" extra="true">
          <origin>0.5 0.5</origin>
          <pos>0.6875 0.459259259259259</pos><!-- 1320 496 -->
          <size>1 1</size>
