@@ -11,7 +11,7 @@ based on 1920x1080
    ///
    -->
    <include>./help-system.xml</include>
-   <view name="system,gamelist">
+   <view name="system,basic,detailed,video">
       <helpsystem name="help">
          <pos>0.5 0.95</pos><!-- 50% 1026 -->
          <fontSize>${helpSystemFontSize}</fontSize>
@@ -22,10 +22,10 @@ based on 1920x1080
       </image>
    </view>
    <variables ifSubset="font-size:medium">
-      <helpSystemFontSize>0.033333333333333</helpSystemFontSize><!-- 36 -->
+      <helpSystemFontSize>0.02962962962963</helpSystemFontSize><!-- 36 -->
    </variables>
    <variables ifSubset="font-size:large">
-      <helpSystemFontSize>0.040740740740741</helpSystemFontSize><!-- 44 -->
+      <helpSystemFontSize>0.02962962962963</helpSystemFontSize><!-- 44 -->
    </variables>
 
    <!--
@@ -172,8 +172,9 @@ based on 1920x1080
          <pos>0.808333333333333 0.09537037037037</pos><!-- 1552 103 -->
       </text>
       <rating name="md_rating">
+         <origin>0.5 0</origin>
          <pos>0.869791666666667 0.132407407407407</pos><!-- 1670 143 -->
-         <size>0.122916666666667 0.027777777777778</size><!-- 236 30 -->
+         <size>0 0.027777777777778</size><!-- - 30 -->
       </rating>
       <text name="md_lbl_releasedate">
          <pos>0.808333333333333 0.185185185185185</pos><!-- 1552 200 -->
