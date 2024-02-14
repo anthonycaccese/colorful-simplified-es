@@ -109,6 +109,7 @@ license:       creative commons CC-BY-NC-SA
       </controllerActivity>
       <text name="clock">
          <pos>1 1</pos>
+         <color>${batteryIndicatorColor}</color>
       </text>
       <batteryIndicator name="batteryIndicator">
          <color>${batteryIndicatorColor}</color>

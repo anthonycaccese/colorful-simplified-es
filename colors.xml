@@ -1,8 +1,8 @@
 <theme>
    <variables ifSubset="color-scheme:colorful">
       <systemBackgroundColor>${systemColor}</systemBackgroundColor>
-      <helpIconColor>ffffffbb</helpIconColor>
-      <helpTextColor>ffffffcc</helpTextColor>
+      <helpIconColor>ffffff99</helpIconColor>
+      <helpTextColor>ffffff99</helpTextColor>
       <helpBackgroundColor>00000022</helpBackgroundColor>
       <systemLabelColor>ffffffaa</systemLabelColor>
       <systemNameColor>ffffff</systemNameColor>

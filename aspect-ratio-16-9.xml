@@ -13,6 +13,7 @@ based on 1920x1080
    <include>./help-system.xml</include>
    <view name="system,basic,detailed,video">
       <helpsystem name="help">
+         <origin>0.5 0.5</origin>
          <pos>0.5 0.95</pos><!-- 50% 1026 -->
          <fontSize>${helpSystemFontSize}</fontSize>
          <entrySpacing>0.020833333333333</entrySpacing><!-- 40 -->
@@ -22,10 +23,10 @@ based on 1920x1080
       </image>
    </view>
    <variables ifSubset="font-size:medium">
-      <helpSystemFontSize>0.02962962962963</helpSystemFontSize><!-- 36 -->
+      <helpSystemFontSize>0.025925925925926</helpSystemFontSize><!-- 28 -->
    </variables>
    <variables ifSubset="font-size:large">
-      <helpSystemFontSize>0.02962962962963</helpSystemFontSize><!-- 44 -->
+      <helpSystemFontSize>0.031481481481481</helpSystemFontSize><!-- 34 -->
    </variables>
 
    <!--
@@ -34,9 +35,15 @@ based on 1920x1080
    ///
    -->
    <view name="screen">
+      <!--<text name="clock">
+         <origin>0 0.5</origin>
+         <pos>0.020833333333333 0.95</pos>
+         <fontSize>${helpSystemFontSize}</fontSize>
+         <fontPath>${fontHelpSystem}</fontPath>
+      </text>-->
       <batteryIndicator name="batteryIndicator">
-         <pos>0 0.022222222222222</pos><!-- 0 24 -->
-         <size>0.984375 0.042592592592593</size><!-- 1890 46 -->
+         <pos>0 0.93</pos>
+         <size>0.98125 0.038888888888889</size><!-- 1884 42 -->
       </batteryIndicator>
    </view>
 
