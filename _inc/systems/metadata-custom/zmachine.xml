@@ -1,7 +1,7 @@
 <theme>
    <view name="system">
       <text name="system-label" extra="true">
-         <text>${systemManufacturer}  /  ${systemReleaseYear}  /  ${systemHardwareType}</text>
+         <text>${systemManufacturer} / ${systemReleaseYear} / ${systemHardwareType}</text>
       </text>
    </view>
 </theme>

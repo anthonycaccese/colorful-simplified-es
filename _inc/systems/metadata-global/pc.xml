@@ -1,16 +1,21 @@
 <theme>
    <variables>
-      <systemName>DOS</systemName>
-      <systemDescription>MS-DOS, short for Microsoft Disk Operating System, was an operating system for x86-based personal computers mostly developed by Microsoft. It was the most commonly used member of the DOS family of operating systems, and was the main operating system for IBM PC compatible personal computers during the 1980s to the mid-1990s, when it was gradually superseded by operating systems offering a graphical user interface (GUI), in various generations of the Microsoft Windows operating system.</systemDescription>
-      <systemManufacturer>Microsoft</systemManufacturer>
+      <systemName>IBM PC</systemName>
+      <systemDescription>The IBM Personal Computer (model 5150, commonly known as the IBM PC) is the first microcomputer released in the IBM PC model line and the basis for the IBM PC compatible de facto standard. Released on August 12, 1981, it was created by a team of engineers and designers directed by Don Estridge in Boca Raton, Florida.
+
+The machine was based on open architecture and third-party peripherals. Over time, expansion cards and software technology increased to support it.
+
+The PC had a substantial influence on the personal computer market. The specifications of the IBM PC became one of the most popular computer design standards in the world. The only significant competition it faced from a non-compatible platform throughout the 1980s was from the Apple Macintosh product line. The majority of modern personal computers are distant descendants of the IBM PC.</systemDescription>
+      <systemManufacturer>IBM</systemManufacturer>
       <systemReleaseYear>1981</systemReleaseYear>
-      <systemReleaseDate>1981-08-01</systemReleaseDate>
-      <systemReleaseDateFormated>August 1, 1981</systemReleaseDateFormated>
+      <systemReleaseDate>1981-08-12</systemReleaseDate>
+      <systemReleaseDateFormated>August 12, 1981</systemReleaseDateFormated>
       <systemHardwareType>Computer</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
       <systemColor>3161BC</systemColor>
-      <systemColorPalette1>FDC20F</systemColorPalette1>
-      <systemColorPalette2>8461A9</systemColorPalette2>
-      <systemColorPalette3>CA1A15</systemColorPalette3>
-      <systemColorPalette4>111111</systemColorPalette4>
+      <systemColorPalette1>1F70C1</systemColorPalette1>
+      <systemColorPalette2>FFFFFF</systemColorPalette2>
+      <systemColorPalette3>666870</systemColorPalette3>
+      <systemColorPalette4>201D1D</systemColorPalette4>
    </variables>
 </theme>
