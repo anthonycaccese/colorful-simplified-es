@@ -1,0 +1,15 @@
+<theme>
+   <variables>
+      <systemName>Abuse</systemName>
+      <systemDescription>Abuse is a dark 2D run-and-gun game, developed by Crack Dot Com, originally for MS-DOS in 1996 and MacOS in 1997.
+
+It features beautiful lighting, realistic animation and nasty alien-like creatures to fight. Crack dot Come released the source code and put it in the public domain since the late 1990s.</systemDescription>
+      <systemManufacturer>Crack Dot Com</systemManufacturer>
+      <systemReleaseYear>1996</systemReleaseYear>
+      <systemReleaseDate>1996</systemReleaseDate>
+      <systemReleaseDateFormated>1996</systemReleaseDateFormated>
+      <systemHardwareType>Port</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>6D2216</systemColor>
+   </variables>
+</theme>

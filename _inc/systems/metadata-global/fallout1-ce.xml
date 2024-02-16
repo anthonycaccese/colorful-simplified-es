@@ -1,0 +1,13 @@
+<theme>
+   <variables>
+      <systemName>Fallout Community Edition</systemName>
+      <systemDescription>Fallout Community Edition is a fully working re-implementation of Fallout, with the same original gameplay, engine bugfixes, and some quality of life improvements, that works (mostly) hassle-free on multiple platforms.</systemDescription>
+      <systemManufacturer>alexbatalov</systemManufacturer>
+      <systemReleaseYear>2023</systemReleaseYear>
+      <systemReleaseDate>2023-02</systemReleaseDate>
+      <systemReleaseDateFormated>February 9th, 2023</systemReleaseDateFormated>
+      <systemHardwareType>Port</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>9D876F</systemColor>
+   </variables>
+</theme>

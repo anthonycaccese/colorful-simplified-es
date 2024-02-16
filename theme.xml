@@ -58,9 +58,9 @@ license:       creative commons CC-BY-NC-SA
    -->
    <subset name="aspect-ratio" displayName="Aspect Ratio">
       <include name="16-9" displayName="16:9" />
-      <include name="16-10" displayName="16:10" />
+      <!--<include name="16-10" displayName="16:10" />
       <include name="4-3" displayName="4:3" />
-      <include name="1-1" displayName="1:1" />
+      <include name="1-1" displayName="1:1" />-->
    </subset>
 
    <!--
@@ -155,7 +155,7 @@ license:       creative commons CC-BY-NC-SA
    ///
    -->
    <view name="system">
-      <text name="theme-var" extra="true">
+      <!--<text name="theme-var" extra="true">
          <origin>1 0</origin>
          <pos>1 0</pos>
          <fontSize>0.02</fontSize>
@@ -163,7 +163,7 @@ license:       creative commons CC-BY-NC-SA
          <fontPath>${fontSemiBold}</fontPath>
          <color>${systemLabelColor}</color>
          <zIndex>5</zIndex>
-      </text>
+      </text>-->
       <text name="system-label" extra="true">
          <lineSpacing>1</lineSpacing>
          <fontPath>${fontSemiBold}</fontPath>

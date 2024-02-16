@@ -1,0 +1,13 @@
+<theme>
+   <variables>
+      <systemName>OpenLara</systemName>
+      <systemDescription>Classic Tomb Raider open-source engine</systemDescription>
+      <systemManufacturer>XProger</systemManufacturer>
+      <systemReleaseYear>2016</systemReleaseYear>
+      <systemReleaseDate>2016-11-26</systemReleaseDate>
+      <systemReleaseDateFormated>November 26th, 2016</systemReleaseDateFormated>
+      <systemHardwareType>Engine</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>4B814D</systemColor>
+   </variables>
+</theme>

@@ -1,0 +1,15 @@
+<theme>
+   <variables>
+      <systemName>Fallout 2 Community Edition</systemName>
+      <systemDescription>Fallout 2 Community Edition is a fully working re-implementation of Fallout 2, with the same original gameplay, engine bugfixes, and some quality of life improvements, that works (mostly) hassle-free on multiple platforms.
+
+Popular Fallout 2 total conversion mods are partially supported. Original versions of Nevada and Sonora (that do not rely on extended features provided by Sfall) likely work, although there is no complete walkthrough confirmation yet. Fallout 2 Restoration Project, Fallout Et Tu and Olympus 2207 are not yet supported. Other mods (particularly Resurrection and Yesterday) are not tested.</systemDescription>
+      <systemManufacturer>alexbatalov</systemManufacturer>
+      <systemReleaseYear>2022</systemReleaseYear>
+      <systemReleaseDate>2022-07-12</systemReleaseDate>
+      <systemReleaseDateFormated>Jul 12th, 2022</systemReleaseDateFormated>
+      <systemHardwareType>Port</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>9D876F</systemColor>
+   </variables>
+</theme>

@@ -1,0 +1,13 @@
+<theme>
+   <variables>
+      <systemName>C-Dogs</systemName>
+      <systemDescription>C-Dogs, the sequel to Cyberdogs, is a shoot 'em up video game where players work cooperatively during missions, and against each other in "dogfight" deathmatch mode.</systemDescription>
+      <systemManufacturer>Ronny Wester</systemManufacturer>
+      <systemReleaseYear>2002</systemReleaseYear>
+      <systemReleaseDate>2002</systemReleaseDate>
+      <systemReleaseDateFormated>2002</systemReleaseDateFormated>
+      <systemHardwareType>Port</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>494949</systemColor>
+   </variables>
+</theme>
