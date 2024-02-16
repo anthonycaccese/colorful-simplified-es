@@ -1,0 +1,15 @@
+<theme>
+   <variables>
+      <systemName>Sega Pico</systemName>
+      <systemDescription>The Sega Pico, also known as Kids Computer Pico, is an educational video game console by Sega Toys. The Pico was released in June 1993 in Japan and November 1994 in North America and Europe, later reaching China in 2002.
+
+Marketed as "edutainment", the main focus of the Pico was educational video games for children between 3 and 7 years old. Releases for the Pico were focused on education for children and included titles supported by licensed franchised animated characters, including Sega's own Sonic the Hedgehog series.</systemDescription>
+      <systemManufacturer>Sega</systemManufacturer>
+      <systemReleaseYear>1993</systemReleaseYear>
+      <systemReleaseDate>1993-06</systemReleaseDate>
+      <systemReleaseDateFormated>June 1993</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>60CDDA</systemColor>
+   </variables>
+</theme>

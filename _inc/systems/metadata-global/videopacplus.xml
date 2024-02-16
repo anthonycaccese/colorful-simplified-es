@@ -1,0 +1,15 @@
+<theme>
+   <variables>
+      <systemName>Videopac+ G7400</systemName>
+      <systemDescription>The Philips Videopac+ G7400 is a third-generation home video game console released in limited quantities in 1983, and only in Europe; an American release as the Odyssey³ Command Center was planned for the Odyssey series but never occurred. The G7400 was the successor to the Philips Videopac G7000, the European counterpart to the American Magnavox Odyssey².[2] The system featured excellently tailored background and foreground graphics.[3]
+
+The G7400 could play three types of games: all normal G7000 games, special G7000 games with additional high-res background graphics that would appear only when played on the G7400, and G7400-only games with high-res sprites and backgrounds.</systemDescription>
+      <systemManufacturer>Philips</systemManufacturer>
+      <systemReleaseYear>1983</systemReleaseYear>
+      <systemReleaseDate>1983</systemReleaseDate>
+      <systemReleaseDateFormated>1983</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>3A445F</systemColor>
+   </variables>
+</theme>

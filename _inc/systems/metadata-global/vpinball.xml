@@ -8,10 +8,6 @@
       <systemReleaseDateFormated>December 19, 2000</systemReleaseDateFormated>
       <systemHardwareType>Engine</systemHardwareType>
       <systemCoverSize>1-1</systemCoverSize>
-      <systemColor>3871C5</systemColor>
-      <systemColorPalette1>F6DD08</systemColorPalette1>
-      <systemColorPalette2>800000</systemColorPalette2>
-      <systemColorPalette3>FF0000</systemColorPalette3>
-      <systemColorPalette4>303030</systemColorPalette4>
+      <systemColor>81CCE9</systemColor>
    </variables>
 </theme>

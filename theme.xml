@@ -155,6 +155,15 @@ license:       creative commons CC-BY-NC-SA
    ///
    -->
    <view name="system">
+      <text name="theme-var" extra="true">
+         <origin>1 0</origin>
+         <pos>1 0</pos>
+         <fontSize>0.02</fontSize>
+         <text>${system.theme}</text>
+         <fontPath>${fontSemiBold}</fontPath>
+         <color>${systemLabelColor}</color>
+         <zIndex>5</zIndex>
+      </text>
       <text name="system-label" extra="true">
          <lineSpacing>1</lineSpacing>
          <fontPath>${fontSemiBold}</fontPath>

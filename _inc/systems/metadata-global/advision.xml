@@ -1,0 +1,13 @@
+<theme>
+   <variables>
+      <systemName>Adventure Vision</systemName>
+      <systemDescription>Adventure Vision is a cartridge-based video game console released by Entex Industries in either August or October 1982. The launch price of the system was $79.95. The monitor, game controls, and computer hardware are all contained within a single portable unit. The LED monitor can only display red pixels. Four games were released, all of which are arcade ports. Approximately 10,000 were produced.</systemDescription>
+      <systemManufacturer>Entex</systemManufacturer>
+      <systemReleaseYear>1982</systemReleaseYear>
+      <systemReleaseDate>1982-10</systemReleaseDate>
+      <systemReleaseDateFormated>October 1982</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>D1A941</systemColor>
+   </variables>
+</theme>

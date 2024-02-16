@@ -1,0 +1,13 @@
+<theme>
+   <variables>
+      <systemName>Commander Genius</systemName>
+      <systemDescription>Commander Genius is a software piece that interprets the Commander Keen and Cosmos the Cosmic Adventure series. As fans and developers we try to implement new features, improve the gameplay and give players an experience that feels like playing the original game but a bit more refreshing.</systemDescription>
+      <systemManufacturer>Gerstrong</systemManufacturer>
+      <systemReleaseYear>2008</systemReleaseYear>
+      <systemReleaseDate>2008</systemReleaseDate>
+      <systemReleaseDateFormated>2008</systemReleaseDateFormated>
+      <systemHardwareType>Engine</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>00AAA9</systemColor>
+   </variables>
+</theme>

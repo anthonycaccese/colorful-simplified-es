@@ -1,0 +1,13 @@
+<theme>
+   <variables>
+      <systemName>VC 4000</systemName>
+      <systemDescription>The Interton Video Computer 4000 (officially abbreviated as Interton VC 4000) is an early 8-bit ROM cartridge-based second-generation home video game console that was released in Germany, England, France, Spain, Austria, the Netherlands and Australia in 1978 by German hearing aid manufacturer Interton. The console is quite obscure outside Germany, but many software-compatible systems can be found in numerous European countries (see versions of the 1292 Advanced Programmable Video System). The console is the successor of the Interton Video 3001 and was sold for 298 Deutsche Mark and discontinued in 1983.</systemDescription>
+      <systemManufacturer>Apple</systemManufacturer>
+      <systemReleaseYear>1978</systemReleaseYear>
+      <systemReleaseDate>1978</systemReleaseDate>
+      <systemReleaseDateFormated>1978</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>0A6043</systemColor>
+   </variables>
+</theme>

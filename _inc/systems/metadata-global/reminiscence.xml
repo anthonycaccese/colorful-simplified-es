@@ -1,0 +1,13 @@
+<theme>
+   <variables>
+      <systemName>REminiscence</systemName>
+      <systemDescription>REminiscence is a game engine recreation of the 1992/1993 action adventure game Flashback. It is the spiritual successor of Another World/Out Of This World and it distinguishes itself with rotoscoped graphics, polygonal cutscenes, and a Prince of Persia-style gameplay system.</systemDescription>
+      <systemManufacturer>Gregory Montoir</systemManufacturer>
+      <systemReleaseYear>2005</systemReleaseYear>
+      <systemReleaseDate>2005</systemReleaseDate>
+      <systemReleaseDateFormated>2005</systemReleaseDateFormated>
+      <systemHardwareType>Engine</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>408080</systemColor>
+   </variables>
+</theme>

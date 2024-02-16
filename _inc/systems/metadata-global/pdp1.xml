@@ -1,0 +1,13 @@
+<theme>
+   <variables>
+      <systemName>PDP-1</systemName>
+      <systemDescription>The PDP-1 (Programmed Data Processor-1) is the first computer in Digital Equipment Corporation's PDP series and was first produced in 1959. It is famous for being the most important computer in the creation of hacker culture at the Massachusetts Institute of Technology, Bolt, Beranek and Newman and elsewhere. The PDP-1 is the original hardware for playing history's first game on a minicomputer, Steve Russell's Spacewar!</systemDescription>
+      <systemManufacturer>Digital Equipment Corp</systemManufacturer>
+      <systemReleaseYear>1959</systemReleaseYear>
+      <systemReleaseDate>1959</systemReleaseDate>
+      <systemReleaseDateFormated>1959</systemReleaseDateFormated>
+      <systemHardwareType>Computer</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>7A91AC</systemColor>
+   </variables>
+</theme>

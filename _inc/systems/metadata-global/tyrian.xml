@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>OpenTyrian</systemName>
+      <systemDescription>OpenTyrian is a open-source project to port Tyrian to modern systems, licensed under the GNU General Public License. Jason Emery generously gave the OpenTyrian developers a copy of the Tyrian 2.1 source code, which has since been ported from Turbo Pascal to C. The port uses SDL, making it easily cross-platform.
+
+      Tyrian is an arcade-style vertical scrolling shooter.  The story is set
+in 20,031 where you play as Trent Hawkins, a skilled fighter-pilot employed
+to fight MicroSol and save the galaxy.</systemDescription>
+      <systemManufacturer>OpenTyrian Team</systemManufacturer>
+      <systemReleaseYear>2007</systemReleaseYear>
+      <systemReleaseDate>2007</systemReleaseDate>
+      <systemReleaseDateFormated>2007</systemReleaseDateFormated>
+      <systemHardwareType>Port</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>5e4c3b</systemColor>
+   </variables>
+</theme>

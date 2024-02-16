@@ -1,0 +1,14 @@
+<theme>
+   <variables>
+      <systemName>Laser 310 </systemName>
+      <systemDescription>The VTech Laser 200 was an early 8-bit home computer from 1983, also sold as the Salora Fellow (mainly in Scandinavia, particularly Finland), the Texet TX8000 (in the United Kingdom) and the Dick Smith VZ 200 (in Australia and New Zealand). The machine ran basic games on cassette such as "Hoppy" Frogger, "Cosmic Rescue" Scramble, "VZ Invaders" Space Invaders and Moon Patrol. The computer was discontinued in 1985 to make way for more advanced home computers. An improved version known as the VTech Laser 310, or the Dick Smith VZ 300 featured a full travel keyboard and 8K ROM software based Floppy Disk Controller, was released in 1985 and continued until 1989.</systemDescription>
+      <systemDescriptionSource>https://archive.org/details/VTech_Laser_310_TOSEC_2012_04_23</systemDescriptionSource>
+      <systemManufacturer>VTech</systemManufacturer>
+      <systemReleaseYear>1985</systemReleaseYear>
+      <systemReleaseDate>1985</systemReleaseDate>
+      <systemReleaseDateFormated>1985</systemReleaseDateFormated>
+      <systemHardwareType>Computer</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>489A49</systemColor>
+   </variables>
+</theme>
