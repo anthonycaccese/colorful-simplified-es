@@ -15,13 +15,14 @@ Most artwork was originally created by viking & faeran (_additional artwork cred
 
 | System View |
 |----|
-| ![Screenshot 2024-02-07 at 4 45 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/c9875a2a-ea0e-450d-bd2f-7581d64ec5ab) |
+| ![screenshot-2024 02 16-19h12 50](https://github.com/anthonycaccese/colorful-simplified-es/assets/1454947/baff46bf-4097-4a5c-996d-543b83812aac) |
 
 | Gamelist View: List | Gamelist View: List with Metadata |
 |----|----|
-| ![Screenshot 2024-02-07 at 4 46 39 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/fabe2a9f-7b3c-4d57-a675-78c5faf783f0) | ![Screenshot 2024-02-07 at 4 47 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/b28103aa-181c-4b00-94f5-0b80f1ac2ecc) |
+| ![screenshot-2024 02 16-19h18 53](https://github.com/anthonycaccese/colorful-simplified-es/assets/1454947/f2a80f4f-b358-403e-ad7d-db29aa579cc9) | ![screenshot-2024 02 16-19h24 22](https://github.com/anthonycaccese/colorful-simplified-es/assets/1454947/6bc5987d-f2eb-48c2-8f53-831ac745e83b) |
 
 ## **Configuration Options**
+
 
 The theme has a simple set of options that can be changed directly from the `User Interface Settings > Theme Configuration` menu in EmulationStation
 
