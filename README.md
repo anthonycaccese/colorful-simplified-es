@@ -17,7 +17,7 @@ Most artwork was originally created by viking & faeran (_additional artwork cred
 |----|
 | ![screenshot-2024 02 16-19h12 50](https://github.com/anthonycaccese/colorful-simplified-es/assets/1454947/baff46bf-4097-4a5c-996d-543b83812aac) |
 
-| Gamelist View: List | Gamelist View: List with Metadata |
+| Gamelist View: Metadata Off | Gamelist View: Metadata On |
 |----|----|
 | ![screenshot-2024 02 16-19h18 53](https://github.com/anthonycaccese/colorful-simplified-es/assets/1454947/f2a80f4f-b358-403e-ad7d-db29aa579cc9) | ![screenshot-2024 02 16-19h24 22](https://github.com/anthonycaccese/colorful-simplified-es/assets/1454947/6bc5987d-f2eb-48c2-8f53-831ac745e83b) |
 
@@ -28,9 +28,9 @@ The theme has a simple set of options that can be changed directly from the `Use
 
 ### **Gamelist View Style**
 
-- `Gamelist View Style` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  There are a few variants to choose from:
-   - `Metadata Off` - 
-   - `Metadata On` - 
+- `Gamelist View Style` - sets the layout used for the gamelist view when media & metadata are scraped for your games.
+   - `Metadata Off` - Displays just a gamelist and game artwork
+   - `Metadata On` - Displays all available metadata for a game along with its artwork
 
 ### **Color Scheme**
 
@@ -56,7 +56,7 @@ The theme has a simple set of options that can be changed directly from the `Use
 
 - `Font Size` - sets the size that text will render at. This can be helpful when using the theme on small screens.
    - Supported Font Sizes:
-   - `Medium` - Default size, good for computer monitors and tv.
+   - `Medium` - Default size, good for computer monitors and tvs.
    - `Large` - Larger size, good for small handheld screens under 6 inches in size.
 
 ### **Aspect Ratio**
@@ -70,14 +70,14 @@ The theme has a simple set of options that can be changed directly from the `Use
 ### Versions for other ES forks:
 * If you use ES-DE... then check out the version [here](https://github.com/anthonycaccese/colorful-simplified-es-de).  The ES-DE version has most of the same base features.  It also adds some additional features such as a carousel view.
 
-### Credits
+### Credits/Sources
 
 - Most artwork originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
 - Some system images were sourced from [ckau-book](https://github.com/CkauNui/ckau-book/tree/master) and they were edited to add transparency.
 - OpenBOR sprites originally created by [DOA687](https://www.deviantart.com/doa687)
 - M.U.G.E.N. sprites originally created by [mpadillathespriter](https://www.deviantart.com/mpadillathespriter)
-- EasyRPG artwork originally by [SeraphCircle](https://twitter.com/SeraphCircle)
-- Doom artwork originally by [azakachi-rd-17](https://www.deviantart.com/azakachi-rd-17)
+- EasyRPG artwork originally created by [SeraphCircle](https://twitter.com/SeraphCircle)
+- Doom artwork originally created by [azakachi-rd-17](https://www.deviantart.com/azakachi-rd-17)
 - Quake artwork by [noorkabir](https://imgbin.com/png/TpRDSTtK/quake-champions-quake-iii-arena-quake-4-video-game-2017-dreamhack-winter-png)
 - LowresNX artwork by [Duimon](https://forums.libretro.com/t/duimon-hsm-mega-bezel-graphics-and-presets-feedback-and-updates/28146/1049)
 - The base folder image used to create the All Games, Favorites, Last Played and Custom Collections images was sourced from [Rick Patrick](https://www.softicons.com/designers/rick-patrick).
