@@ -1,8 +1,8 @@
-# Colorful (Simplified) for EmulationStation (Batocera, RetroBat &amp; JELOS)
+# Colorful (Simplified) for EmulationStation <br>*(Batocera, RetroBat &amp; JELOS)*
 
-This is simplified take on the Colorful theme which was originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/profile/76940-faeran/)) for Launchbox.
+This is simplified take on the Colorful theme which was originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/profile/76940-faeran/) for Launchbox.
 
-Most artwork was originally created by viking & faeran (_additional artwork credits can be found in the credits section below_). I translated things for the theming engine used by Batocera. The original version of the Colorful theme for Launchbox can be found [here](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
+Most artwork was originally created by viking (_additional artwork credits can be found in the credits section below_). I translated things for the theming engine used by Batocera. The original version of the Colorful theme for Launchbox can be found [here](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
 
 ### Changes Made
 
@@ -22,7 +22,6 @@ Most artwork was originally created by viking & faeran (_additional artwork cred
 | ![screenshot-2024 02 16-19h18 53](https://github.com/anthonycaccese/colorful-simplified-es/assets/1454947/f2a80f4f-b358-403e-ad7d-db29aa579cc9) | ![screenshot-2024 02 16-19h24 22](https://github.com/anthonycaccese/colorful-simplified-es/assets/1454947/6bc5987d-f2eb-48c2-8f53-831ac745e83b) |
 
 ## **Configuration Options**
-
 
 The theme has a simple set of options that can be changed directly from the `User Interface Settings > Theme Configuration` menu in EmulationStation
 
@@ -64,6 +63,13 @@ The theme has a simple set of options that can be changed directly from the `Use
 - `Aspect Ratio` - sets the aspect ratio to match your display. This should happen automatically but can also be set manually if needed.
    - Supported Aspect Ratios:
    - `16:9`
+ 
+## **Addons**
+
+- `System View Video` (720p)
+   - Adds an option to turn on/off the display of videos in the system view
+   - Videos are sourced from the Coloful video set by [viking](https://forums.launchbox-app.com/profile/70421-viking/) and others in the Launchbox community
+   - Download & Instructions are here: https://github.com/anthonycaccese/colorful-simplified-es-addons-video-720
 
 ## Additional Notes
 
