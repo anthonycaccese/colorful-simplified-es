@@ -79,7 +79,7 @@ The theme has a simple set of options that can be changed directly from the `Use
 ### Credits/Sources
 
 - Most artwork originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
-- Some system images were sourced from [ckau-book](https://github.com/CkauNui/ckau-book/tree/master) and they were edited to add transparency.
+- For systems that did not exist in the Colorful set; some were sourced from the great work done by [g-spawn](https://github.com/g-spawnPL) for the [ckau-book](https://github.com/CkauNui/ckau-book/tree/master) theme and they were edited to add transparency.
 - OpenBOR sprites originally created by [DOA687](https://www.deviantart.com/doa687)
 - M.U.G.E.N. sprites originally created by [mpadillathespriter](https://www.deviantart.com/mpadillathespriter)
 - EasyRPG artwork originally created by [SeraphCircle](https://twitter.com/SeraphCircle)
