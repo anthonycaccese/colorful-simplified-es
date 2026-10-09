@@ -1,0 +1,243 @@
+<!--
+4:3 resolution: 
+based on 1024x768 / 1600x1200 / 640x480
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <!--
+   ///
+   Include: Help System
+   ///
+   -->
+   <include>./help-system.xml</include>
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.96</pos>
+         <fontSize>${helpSystemFontSize}</fontSize>
+         <entrySpacing>0.02</entrySpacing>
+      </helpsystem>
+      <image name="helpBackground" extra="true">
+         <size>1 0.08</size>
+      </image>
+   </view>
+   <variables ifSubset="font-size:medium">
+      <helpSystemFontSize>0.028</helpSystemFontSize>
+   </variables>
+   <variables ifSubset="font-size:large">
+      <helpSystemFontSize>0.035</helpSystemFontSize>
+   </variables>
+
+   <!--
+   ///
+   Screen View
+   ///
+   -->
+   <view name="screen">
+      <batteryIndicator name="batteryIndicator">
+         <pos>0 0.94</pos>
+         <size>0.98 0.04</size>
+      </batteryIndicator>
+   </view>
+
+   <!--
+   ///
+   System View
+   ///
+   -->
+   <view name="system">
+      <text name="system-label" extra="true">
+         <pos>0.03 0.09</pos>
+         <size>0.45 0.03</size>
+         <fontSize>0.03</fontSize>
+      </text>
+      <text name="system-name" extra="true">
+         <pos>0.03 0.13</pos>
+         <size>0.45 0.2</size>
+         <fontSize>${systemSystemNameFontSize}</fontSize>
+      </text>
+      <text name="system-description" extra="true">
+         <pos>0.03 0.5</pos>
+         <size>0.35 0.3</size>
+         <fontSize>0.035</fontSize>
+         <lineSpacing>1.25</lineSpacing>
+      </text>
+      <text name="systemInfo">
+         <pos>0.03 0.83</pos>
+         <size>0.35 0</size>
+         <fontSize>0.035</fontSize>
+         <lineSpacing>1</lineSpacing>
+      </text>
+      <carousel name="systemcarousel">
+         <pos>0.72 0.5</pos>
+         <size>0.6 1</size>
+         <logoScale>0.76</logoScale>
+      </carousel>
+   </view>
+   <variables ifSubset="font-size:medium">
+      <systemSystemNameFontSize>0.050</systemSystemNameFontSize>
+   </variables>
+   <variables ifSubset="font-size:large">
+      <systemSystemNameFontSize>0.065</systemSystemNameFontSize>
+   </variables>
+
+   <!--
+   ///
+   Gamelist View - List Variants
+   ///
+   -->
+   <view name="basic,detailed,video">
+      <text name="system-name" extra="true">
+         <pos>0.03 0.06</pos>
+         <size>0.45 0.43</size>
+         <fontSize>${gamelistSystemNameFontSize}</fontSize>
+      </text>
+      <textlist name="gamelist">
+         <pos>${gamelistPos}</pos>
+         <size>${gamelistSize}</size>
+         <fontSize>${gamelistFontSize}</fontSize>
+         <lineSpacing>${gamelistLineSpacing}</lineSpacing>
+         <horizontalMargin>0.009</horizontalMargin>
+      </textlist>
+   </view>
+   <variables ifSubset="font-size:medium">
+      <gamelistSystemNameFontSize>0.04</gamelistSystemNameFontSize>
+      <gamelistPos>0.03 0.18</gamelistPos>
+      <gamelistSize>0.42 0.72</gamelistSize>
+      <gamelistFontSize>0.030</gamelistFontSize>
+      <gamelistLineSpacing>1.5</gamelistLineSpacing>
+   </variables>
+   <variables ifSubset="font-size:large">
+      <gamelistSystemNameFontSize>0.045</gamelistSystemNameFontSize>
+      <gamelistPos>0.03 0.15</gamelistPos>
+      <gamelistSize>0.42 0.75</gamelistSize>
+      <gamelistFontSize>0.04</gamelistFontSize>
+      <gamelistLineSpacing>1.5</gamelistLineSpacing>
+   </variables>
+
+   <!--
+   ///
+   Gamelist View - List: Basic
+   ///
+   -->
+   <view name="basic">
+      <image name="system-art" extra="true">
+         <pos>0.72 0.5</pos>
+	 <size>0.76 1</size>
+         <scale>0.76</scale>
+      </image>
+   </view>
+
+   <!--
+   ///
+   Gamelist View - List: Metadata Off
+   ///
+   -->
+   <view name="detailed">
+      <image name="md_image">
+         <pos>0.75 0.46</pos>
+         <maxSize>0.45 0.6</maxSize>
+      </image>
+   </view>
+   <view name="video">
+      <video name="md_video">
+         <pos>0.74 0.46</pos>
+         <maxSize>0.45 0.6</maxSize>
+      </video>
+   </view>
+
+   <!--
+   ///
+   Gamelist View - Metadata On
+   ///
+   -->
+   <view ifSubset="gamelist-view-style:metadata-on" name="detailed,video">
+      <text name="md_description">
+         <pos>0.50 0.56</pos>
+         <size>0.30 0.34</size>
+         <fontSize>${gamelistDescriptionFontSize}</fontSize>
+         <lineSpacing>${gamelistDescriptionLineSpacing}</lineSpacing>
+      </text>
+      
+      <!-- Tutti i box metadati sulla destra -->
+      <text name="md_lbl_rating,md_lbl_releasedate,md_lbl_genre,md_lbl_publisher,md_lbl_lastplayed,md_lbl_gametime">
+         <size>0.15 0.03</size>
+         <fontSize>${gamelistMetadataFontSize}</fontSize>
+      </text>
+      <text name="md_players,md_genre,md_developer,md_publisher,md_gametime">
+         <size>0.15 0.03</size>
+         <fontSize>${gamelistMetadataFontSize}</fontSize>
+      </text>
+      <datetime name="md_releasedate,md_lastplayed">
+         <size>0.15 0.03</size>
+         <fontSize>${gamelistMetadataFontSize}</fontSize>
+      </datetime>
+      
+      <text name="md_lbl_rating">
+         <pos>0.82 0.57</pos>
+      </text>
+      <rating name="md_rating">
+         <origin>0.5 0</origin>
+         <pos>0.9 0.61</pos>
+         <size>0 0.033</size>
+      </rating>
+      <text name="md_lbl_genre">
+          <pos>0.82 0.658</pos>
+      </text>
+      <text name="md_genre">
+         <pos>0.82 0.695</pos>
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.82 0.735</pos>
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.82 0.775</pos>
+      </datetime>
+      <text name="md_lbl_gametime">
+         <pos>0.82 0.82</pos>
+      </text>
+      <text name="md_gametime">
+         <pos>0.82 0.855</pos>
+      </text>
+      <image name="game-metadata-background" extra="true">
+         <pos>0.81 0.56</pos>
+         <size>0.17 0.34</size>
+      </image>
+   </view>
+   
+   <view ifSubset="gamelist-view-style:metadata-on" name="detailed">
+      <image name="md_image">
+         <pos>0.74 0.30</pos>
+         <maxSize>0.48 0.45</maxSize>
+      </image>
+   </view>
+   <view ifSubset="gamelist-view-style:metadata-on" name="video">
+      <video name="md_video">
+         <pos>0.74 0.30</pos>
+         <maxSize>0.48 0.45</maxSize>
+      </video>
+   </view>
+   
+   <variables ifSubset="font-size:medium">
+      <gamelistDescriptionFontSize>0.028</gamelistDescriptionFontSize>
+      <gamelistDescriptionLineSpacing>1.3</gamelistDescriptionLineSpacing>
+      <gamelistMetadataFontSize>0.022</gamelistMetadataFontSize>
+   </variables>
+   <variables ifSubset="font-size:large">
+      <gamelistDescriptionFontSize>0.035</gamelistDescriptionFontSize>
+      <gamelistDescriptionLineSpacing>1.3</gamelistDescriptionLineSpacing>
+      <gamelistMetadataFontSize>0.028</gamelistMetadataFontSize>
+   </variables>
+
+   <!-- Customizations -->
+   <!-- System View: Video -->
+   <view name="system">
+      <video ifSubset="color-scheme:colorful,system-view-video:on" name="system-video" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.75 0.45</pos>
+         <size>0.8 0.8</size>
+      </video>
+   </view>
+
+</theme>

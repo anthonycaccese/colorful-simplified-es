@@ -62,6 +62,7 @@ The theme has a simple set of options that can be changed directly from the `Use
 
 - `Aspect Ratio` - sets the aspect ratio to match your display. This should happen automatically but can also be set manually if needed.
    - Supported Aspect Ratios:
+   - `4:3`
    - `16:9`
  
 ## **Addons**

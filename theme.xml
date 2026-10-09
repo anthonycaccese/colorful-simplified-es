@@ -58,9 +58,9 @@ license:       creative commons CC-BY-NC-SA
    -->
    <subset name="aspect-ratio" displayName="Aspect Ratio">
       <include name="16-9" displayName="16:9" />
-      <!--<include name="16-10" displayName="16:10" />
+      <!--<include name="16-10" displayName="16:10" />-->
       <include name="4-3" displayName="4:3" />
-      <include name="1-1" displayName="1:1" />-->
+      <!--<include name="1-1" displayName="1:1" />-->
    </subset>
 
    <!--
@@ -513,5 +513,6 @@ license:       creative commons CC-BY-NC-SA
    -->
    <include ifSubset="aspect-ratio:16-9">./aspect-ratio-16-9.xml</include>
    <include ifSubset="aspect-ratio:1-1">./aspect-ratio-1-1.xml</include>
+   <include ifSubset="aspect-ratio:4-3">./aspect-ratio-4-3.xml</include>
 
 </theme>
